@@ -2339,7 +2339,7 @@ function getAlRows(){
         fo: pe?.fo||false
       });
     })
-    .filter(r=>curTab!=='todos'||r.es!=='FALTA FINALIZAR');
+    .filter(r=>!['todos','rpp45','rpp90solo'].includes(curTab)||r.es!=='FALTA FINALIZAR');
 }
 function renderAl(){
   document.getElementById('al-thead').innerHTML = thHtml(AL_COLS, alSortCol, alSortDir, 'sortAl');
@@ -2533,8 +2533,8 @@ function updateAlVCounts(){
     const ve = filt(getTabRows(curTab));
     const seen = new Map();
     [...pv, ...ve].forEach(r=>{ if(!seen.has(r.e)||r.d>seen.get(r.e).d) seen.set(r.e,r); });
-    // Tab Todos: excluir escrituras FF (no en DATA.pe) salvo excepción Bancos/Infonavit/Fovissste
-    if(curTab==='todos') [...seen.keys()].forEach(e=>{ if(!DATA_PE_ESCS.has(e)) seen.delete(e); });
+    // Tab Todos/rpp45/rpp90solo: excluir escrituras FF (no están en DATA.pe)
+    if(['todos','rpp45','rpp90solo'].includes(curTab)) [...seen.keys()].forEach(e=>{ if(!DATA_PE_ESCS.has(e)) seen.delete(e); });
     const todasN = seen.size;
     const elAll = document.getElementById('cnt-v-all'); if(elAll) elAll.textContent = String(todasN);
     const elPv  = document.getElementById('cnt-v-pv');  if(elPv)  elPv.textContent  = String(pv.length);
