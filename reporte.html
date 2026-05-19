@@ -744,6 +744,16 @@ th.col-tr, td.col-tr{width:140px;text-align:center;font-size:.84rem;font-weight:
 <!-- INDICADORES (alertas, segundo) -->
 <script>
 const DATA = JSON.parse(localStorage.getItem('ggr_data') || '{}')
+// Periodo dinámico desde localStorage
+(function(){
+  var per = localStorage.getItem('ggr_periodo') || '';
+  if(per){
+    var h=document.getElementById('hdr-periodo');
+    var f=document.getElementById('ftr-periodo');
+    if(h) h.textContent=per;
+    if(f) f.textContent=per;
+  }
+})();
 
   // Guard: si no hay datos en localStorage, volver a la página de carga
   if (!localStorage.getItem('ggr_data')) {
