@@ -545,9 +545,9 @@ th.col-tr, td.col-tr{width:140px;text-align:center;font-size:.84rem;font-weight:
   <div class="h-center">
     <span class="h-ribbon">Reporte Ejecutivo</span>
     <span class="h-title" id="h-title-main">Bitácora de Escrituras</span>
-    <span class="h-periodo"><span class="lbl">Periodo:</span> Mar 2019 - Abr 2026</span>
+    <div style="display:inline-flex;flex-direction:column;align-items:stretch;"><span class="h-periodo"><span class="lbl">Periodo:</span> Mar 2019 - Abr 2026</span>
     <span id="periodo-label" style="display:none">General 19-26</span>
-    <span id="gh-sync-wrap" style="display:flex;align-items:center;gap:6px;margin-top:5px;"><span id="gh-sync-status" style="font-size:.7rem;font-weight:600;color:#6c8ef5;cursor:default;">&#x27F3; Conectando...</span><button onclick="openGhModal()" style="padding:1px 6px;border-radius:4px;cursor:pointer;font-size:.8rem;line-height:1.4;" title="Configurar token GitHub">&#x2699;</button></span><button id="btn-excel" onclick="exportGGRExcel()" title="Descargar Excel" style="display:inline-flex;align-items:center;gap:4px;padding:3px 9px;border-radius:7px;border:none;background:#16a34a;color:#fff;font-size:.7rem;font-weight:700;cursor:pointer;font-family:inherit;letter-spacing:.02em;margin-left:6px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Excel</button>
+    <div style="display:flex;align-items:center;gap:6px;margin-top:5px;"><span id="gh-sync-wrap" style="display:flex;align-items:center;gap:6px;"><span id="gh-sync-status" style="font-size:.7rem;font-weight:600;color:#6c8ef5;cursor:default;">&#x27F3; Conectando...</span><button onclick="openGhModal()" style="padding:1px 6px;border-radius:4px;cursor:pointer;font-size:.8rem;line-height:1.4;" title="Configurar token GitHub">&#x2699;</button></span><button id="btn-excel" onclick="exportGGRExcel()" title="Descargar Excel" style="margin-left:auto;display:inline-flex;align-items:center;gap:4px;padding:3px 9px;border-radius:7px;border:none;background:#16a34a;color:#fff;font-size:.7rem;font-weight:700;cursor:pointer;font-family:inherit;letter-spacing:.02em;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Excel</button></div></div>
   </div>
   <div class="h-ring" id="meta-ring">
     <svg width="92" height="92" viewBox="0 0 92 92">
@@ -834,6 +834,14 @@ const alertaEscs = new Set([
   ...(DATA.al.fovissste90||[]).map(r=>r.e),
   ...getNotifcatRows().map(r=>r.e)
 ]);
+// Escrituras con alerta activa de Bancos/Infonavit/Fovissste (excepción para FF en tab Todos)
+const bancosInfoFoviEscs = new Set([
+  ...(DATA.al.bancos90||[]).map(r=>r.e),
+  ...(DATA.al.infonavit90||[]).map(r=>r.e),
+  ...(DATA.al.fovissste90||[]).map(r=>r.e),
+]);
+// Set de escrituras pendientes duras (en DATA.pe) — FF no está aquí, va en DATA_CO
+const DATA_PE_ESCS = new Set((DATA.pe||[]).map(r=>r.e));
 
 // ═══════════════════════════════════════════════════════════════════
 // FILTER STATE
@@ -2309,6 +2317,8 @@ function getAlRows(){
   } else {
     rows = getTabRows(curTab).filter(r=>r.v===true);
   }
+  // Tab Todos: excluir escrituras FF (no están en DATA.pe) salvo excepción Bancos/Infonavit/Fovissste
+  if(curTab==='todos') rows=rows.filter(r=>DATA_PE_ESCS.has(r.e)||bancosInfoFoviEscs.has(r.e));
   return rows
     .filter(r=>!pieAbKey||r.ab===pieAbKey)
     .map(r=>{
@@ -2513,6 +2523,8 @@ function updateAlVCounts(){
     const ve = filt(getTabRows(curTab));
     const seen = new Map();
     [...pv, ...ve].forEach(r=>{ if(!seen.has(r.e)||r.d>seen.get(r.e).d) seen.set(r.e,r); });
+    // Tab Todos: excluir escrituras FF (no en DATA.pe) salvo excepción Bancos/Infonavit/Fovissste
+    if(curTab==='todos') [...seen.keys()].forEach(e=>{ if(!DATA_PE_ESCS.has(e)&&!bancosInfoFoviEscs.has(e)) seen.delete(e); });
     const todasN = seen.size;
     const elAll = document.getElementById('cnt-v-all'); if(elAll) elAll.textContent = String(todasN);
     const elPv  = document.getElementById('cnt-v-pv');  if(elPv)  elPv.textContent  = String(pv.length);
