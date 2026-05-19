@@ -523,6 +523,7 @@ async function processFile(file){
 
   let total=0, etiquetadas=0;
   const N=rows.length;
+  const labelMap={}; // ri -> {es,tr}
 
   for(let ri=1;ri<N;ri++){
     if(ri%500===0) setProgress(30+Math.round(ri/N*50),'Procesando fila '+ri+'…');
@@ -569,6 +570,7 @@ async function processFile(file){
       if(ne){ finalEs=ne; finalTr=nt||''; etiquetadas++; }
     }
 
+    labelMap[ri]={es:finalEs,tr:finalTr||''};
     // Count
     es_count[finalEs]=(es_count[finalEs]||0)+1;
     if(finalTr) tr_count[finalTr]=(tr_count[finalTr]||0)+1;
@@ -751,6 +753,38 @@ async function processFile(file){
   const T=total;
 
   // xlsx base64
+  // ── Escribir etiquetas de vuelta en el workbook ──
+  setProgress(88,'Escribiendo etiquetas en xlsx…');
+  await new Promise(r=>setTimeout(r,20));
+  try{
+    const ws2=wb.Sheets[wb.SheetNames[0]];
+    const hdrRow=rows[0];
+    let esCol=hdrRow.findIndex(h=>h&&String(h).trim()==='Estatus');
+    let trCol=hdrRow.findIndex(h=>h&&String(h).trim()==='Tramite'||h&&String(h).trim()==='Trámite');
+    if(esCol<0){ esCol=hdrRow.length; ws2[XLSX.utils.encode_cell({r:0,c:esCol})]={v:'Estatus',t:'s'}; }
+    if(trCol<0){ trCol=hdrRow.length+(esCol===hdrRow.length?1:0); ws2[XLSX.utils.encode_cell({r:0,c:trCol})]={v:'Tramite',t:'s'}; }
+    // Actualizar rango
+    const range=XLSX.utils.decode_range(ws2['!ref']||'A1');
+    for(const [ri,lbl] of Object.entries(labelMap)){
+      const r=parseInt(ri);
+      ws2[XLSX.utils.encode_cell({r,c:esCol})]={v:lbl.es,t:'s'};
+      ws2[XLSX.utils.encode_cell({r,c:trCol})]={v:lbl.tr,t:'s'};
+      if(r>range.e.r) range.e.r=r;
+      if(esCol>range.e.c) range.e.c=esCol;
+      if(trCol>range.e.c) range.e.c=trCol;
+    }
+    ws2['!ref']=XLSX.utils.encode_range(range);
+    // Guardar en IndexedDB
+    const wb_b64=XLSX.write(wb,{type:'base64',bookType:'xlsx'});
+    const idbReq=indexedDB.open('ggr_idb',1);
+    idbReq.onupgradeneeded=e=>e.target.result.createObjectStore('xlsx');
+    idbReq.onsuccess=e=>{
+      const db=e.target.result;
+      const tx=db.transaction('xlsx','readwrite');
+      tx.objectStore('xlsx').put(wb_b64,'wb_b64');
+    };
+  }catch(ex){ console.warn('IndexedDB xlsx save failed:',ex); }
+
   setProgress(92,'Guardando en localStorage…');
   await new Promise(r=>setTimeout(r,30));
 

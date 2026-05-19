@@ -526,6 +526,7 @@ th.col-tr, td.col-tr{width:140px;text-align:center;font-size:.84rem;font-weight:
 #gh-sync-wrap button{background:transparent!important;color:var(--muted)!important;border:none!important;box-shadow:none!important;}
 #gh-sync-wrap button:hover{background:transparent!important;color:var(--accent)!important;}
 @media print{#gh-sync-wrap,#gh-modal{display:none!important;}}
+
 </style>
 </head>
 <body><script>if(localStorage.getItem('lm')!=='0')document.body.classList.add('light');</script>
@@ -546,7 +547,7 @@ th.col-tr, td.col-tr{width:140px;text-align:center;font-size:.84rem;font-weight:
     <span class="h-title" id="h-title-main">Bitácora de Escrituras</span>
     <span class="h-periodo"><span class="lbl">Periodo:</span> Mar 2019 - Abr 2026</span>
     <span id="periodo-label" style="display:none">General 19-26</span>
-    <span id="gh-sync-wrap" style="display:flex;align-items:center;gap:6px;margin-top:5px;"><span id="gh-sync-status" style="font-size:.7rem;font-weight:600;color:#6c8ef5;cursor:default;">&#x27F3; Conectando...</span><button onclick="openGhModal()" style="padding:1px 6px;border-radius:4px;cursor:pointer;font-size:.8rem;line-height:1.4;" title="Configurar token GitHub">&#x2699;</button></span>
+    <span id="gh-sync-wrap" style="display:flex;align-items:center;gap:6px;margin-top:5px;"><span id="gh-sync-status" style="font-size:.7rem;font-weight:600;color:#6c8ef5;cursor:default;">&#x27F3; Conectando...</span><button onclick="openGhModal()" style="padding:1px 6px;border-radius:4px;cursor:pointer;font-size:.8rem;line-height:1.4;" title="Configurar token GitHub">&#x2699;</button> <button onclick="exportGGRExcel()" title="Descargar Excel" style="display:inline-flex;align-items:center;gap:4px;padding:3px 9px;border-radius:7px;border:none;background:#16a34a;color:#fff;font-size:.7rem;font-weight:700;cursor:pointer;font-family:inherit;letter-spacing:.02em;margin-left:auto;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Excel</button></span>
   </div>
   <div class="h-ring" id="meta-ring">
     <svg width="92" height="92" viewBox="0 0 92 92">
@@ -3010,6 +3011,51 @@ function updateMetaRing(){
 window.addEventListener('DOMContentLoaded', updateMetaRing);
 window.addEventListener('DOMContentLoaded', function(){ setTimeout(loadFromGitHub, 500); });
 // ── Modo día / noche ──
+function downloadExcelEtiquetas(){
+  if(typeof XLSX==='undefined'){ alert('SheetJS no cargado. Recarga la página.'); return; }
+  // Reunir todas las filas: pendientes + concluidas/FF
+  const allRows = [...(DATA.pe||[]), ...(DATA_CO||[])];
+  // Ordenar por número de escritura
+  allRows.sort((a,b)=>{ const na=parseInt(a.e)||0, nb=parseInt(b.e)||0; return na-nb; });
+  // Construir sheet
+  const ws_data = [['Escritura','Expediente','Abogado','Fech. Esc.','Operación','Municipio','Acreedor/Banco','Estatus','Trámite']];
+  allRows.forEach(r=>{
+    ws_data.push([
+      r.e||'', r.xp||'', r.ab||'',
+      r.fe ? (r.fe.length>10 ? r.fe.substring(0,10) : r.fe) : '',
+      r.op||'', r.mu||'', r.ac||'',
+      r.es||'', r.tr||''
+    ]);
+  });
+  const ws = XLSX.utils.aoa_to_sheet(ws_data);
+  // Anchos de columna
+  ws['!cols'] = [{wch:12},{wch:14},{wch:6},{wch:12},{wch:40},{wch:18},{wch:22},{wch:18},{wch:16}];
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'Bitácora');
+  const periodo = localStorage.getItem('ggr_periodo') || 'Bitacora';
+  XLSX.writeFile(wb, 'Bitacora_Etiquetada_' + periodo.replace(/[^a-zA-Z0-9]/g,'_') + '.xlsx');
+}
+
+function exportGGRExcel(){
+  const per=(localStorage.getItem('ggr_periodo')||'')
+              .replace(/[^a-zA-Z0-9]/g,'_').slice(0,30);
+  const req=indexedDB.open('ggr_idb',1);
+  req.onupgradeneeded=e=>e.target.result.createObjectStore('xlsx');
+  req.onsuccess=e=>{
+    const db=e.target.result;
+    const tx=db.transaction('xlsx','readonly');
+    const get=tx.objectStore('xlsx').get('wb_b64');
+    get.onsuccess=()=>{
+      const b64=get.result;
+      if(!b64){ alert('Sube el archivo xlsx desde la pantalla inicial para poder descargar el Excel etiquetado.'); return; }
+      const wb=XLSX.read(b64,{type:'base64'});
+      XLSX.writeFile(wb,'Bitacora_GGR_etiquetada'+(per?'_'+per:'')+'.xlsx');
+    };
+    get.onerror=()=>alert('Error al leer el archivo. Por favor sube el xlsx nuevamente.');
+  };
+  req.onerror=()=>alert('Error de almacenamiento. Por favor sube el xlsx nuevamente.');
+}
+
 function toggleLightMode(){
   document.body.classList.toggle('light');
   localStorage.setItem('lm', document.body.classList.contains('light')?'1':'0');
