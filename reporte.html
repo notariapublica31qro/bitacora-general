@@ -810,7 +810,7 @@ function getTabRows(tab){
         if(!seen.has(r.e)||r.d>seen.get(r.e).d) seen.set(r.e,r);
       });
     });
-    return [...seen.values()];
+    return [...seen.values()].filter(r=>r.es!=='FALTA FINALIZAR');
   }
   if(tab==='notifcat')   return getNotifcatRows();
   if(tab==='td')         return (DATA.al.td||[]);
