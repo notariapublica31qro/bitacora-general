@@ -883,6 +883,7 @@ function applyChartFilter(cond, label) {
   document.querySelectorAll('.sg-btn').forEach(b=>b.classList.remove('on'));
   const sgAll = document.getElementById('sg-btn-all'); if(sgAll) sgAll.classList.add('on');
   pePage = 0; alPage = 0;
+  try{updateAlVCounts();}catch(e){}
   requestAnimationFrame(() => { renderPe(); renderAl(); });
 }
 
@@ -1037,6 +1038,7 @@ function updateKPIs(abKey) {
   document.getElementById('kpi-alrt-pct').innerHTML = '<span>'+alrtAbPct+'</span><span style="display:inline-block;width:0;overflow:visible;">%</span>';
   { const _b=document.getElementById('kpi-alrt-bar'); if(_b) _b.style.width = alrtAbPct + '%'; }
   document.getElementById('kpi-alrt-sub').textContent = '';
+  try{updateAlVCounts();}catch(e){}
 }
 
 function updateSegs(abKey) {
@@ -3037,6 +3039,7 @@ function updateMetaRing(){
   // Firmadas en mes corriente (dinámico al filtro de abogado)
   const elF = document.getElementById('kpi-meta-firmadas-val');
   if(elF){ elF.textContent = (counts.tras + counts.ntr).toLocaleString(); }
+  try { updateAlVCounts(); } catch(e){}
 }
 window.addEventListener('DOMContentLoaded', updateMetaRing);
 window.addEventListener('DOMContentLoaded', function(){ setTimeout(loadFromGitHub, 500); });
