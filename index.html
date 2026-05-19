@@ -752,7 +752,15 @@ async function processFile(file){
 
   // xlsx base64
   setProgress(92,'Guardando en localStorage…');
-  const xlsxB64=btoa(String.fromCharCode(...new Uint8Array(buf)));
+  // Convertir buffer a base64 por chunks para evitar stack overflow en archivos grandes
+  const xlsxB64 = (function(buf){
+    const bytes = new Uint8Array(buf);
+    let bin = '';
+    const chunk = 8192;
+    for(let i=0;i<bytes.length;i+=chunk)
+      bin += String.fromCharCode(...bytes.subarray(i, i+chunk));
+    return btoa(bin);
+  })(buf);
 
   try{
     localStorage.setItem('ggr_data',       JSON.stringify(DATA));
