@@ -317,5 +317,27 @@
     "es": "ADELANTADO",
     "tr": "EXP INFO-CLG",
     "ab": "GGR"
+  },
+  {
+    "xp": "7068.26",
+    "cl": "VICTOR MANUEL SAN MARTIN BUSTOS",
+    "op": "COMPRAVENTA-CREDITO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "COFI-HSBC",
+    "es": "PENDIENTE",
+    "tr": "EXP INFO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7069.26",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": "",
+    "ab": "GGR"
   }
 ]
