@@ -19,26 +19,24 @@
   .wrap{width:100%;max-width:600px;display:flex;flex-direction:column;gap:0}
 
   /* ── BANNER ── */
-  .banner{display:grid;grid-template-columns:80px 1fr 200px;align-items:center;gap:16px;padding:0 4px}
+  .banner{display:grid;grid-template-columns:auto auto 1fr;align-items:center;gap:20px;margin-bottom:6px}
   .banner-buho{width:72px;height:auto;cursor:pointer;transition:opacity .2s}
   .banner-buho:hover{opacity:.8}
-  .banner-center{display:flex;flex-direction:column;gap:4px}
+  .banner-center{display:flex;flex-direction:column;gap:2px}
   .ribbon{display:inline-flex;align-items:center;background:linear-gradient(90deg,var(--bronze),var(--bronze2));
            color:#fff;font-size:.65rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
            padding:3px 12px;border-radius:4px;width:fit-content;margin-bottom:2px}
-  .banner-title{font-size:1.75rem;font-weight:900;color:var(--text);line-height:1.1}
+  .banner-title{font-size:1.75rem;font-weight:900;color:var(--text);letter-spacing:-.01em;line-height:1}
   .banner-sub{font-size:.78rem;color:var(--muted);margin-top:2px}
   .banner-logo{width:200px;height:auto;
     filter:brightness(0) invert(37%) sepia(60%) saturate(800%) hue-rotate(114deg) brightness(82%);}
 
   /* ── DIVISOR ── */
-  .divider{height:4px;border:none;
-    background:linear-gradient(90deg,transparent,var(--bronze) 40%,var(--bronze) 60%,transparent);
-    margin:16px 0 20px 0;opacity:.85}
+  .divider{height:4px;border:none;border-radius:2px;background:linear-gradient(90deg,transparent 0%,rgba(163,123,84,.45) 12%,#a37b54 50%,rgba(163,123,84,.45) 88%,transparent 100%);margin:6px 0 20px}
 
   /* ── CARD ── */
   .card{background:var(--card);border:1px solid var(--border);border-radius:14px;
-         padding:28px 30px;box-shadow:0 2px 12px rgba(0,0,0,.06);margin-bottom:20px}
+         padding:28px 30px;box-shadow:0 4px 20px rgba(0,0,0,.1);margin-bottom:20px}
 
   /* Drop zone */
   .drop{border:2px dashed var(--border);border-radius:10px;padding:40px 24px;
