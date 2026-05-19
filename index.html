@@ -477,7 +477,7 @@ function labelRow(r){
 // Main processor
 // ─────────────────────────────────────────────
 
-async function processFile(file){
+async async function processFile(file){
   document.getElementById('progress-wrap').style.display='block';
   document.getElementById('err-wrap').style.display='none';
   setProgress(5,'Leyendo archivo…');
@@ -752,15 +752,7 @@ async function processFile(file){
 
   // xlsx base64
   setProgress(92,'Guardando en localStorage…');
-  // Convertir buffer a base64 por chunks para evitar stack overflow en archivos grandes
-  const xlsxB64 = (function(buf){
-    const bytes = new Uint8Array(buf);
-    let bin = '';
-    const chunk = 8192;
-    for(let i=0;i<bytes.length;i+=chunk)
-      bin += String.fromCharCode(...bytes.subarray(i, i+chunk));
-    return btoa(bin);
-  })(buf);
+  await new Promise(r=>setTimeout(r,30));
 
   try{
     localStorage.setItem('ggr_data',       JSON.stringify(DATA));
@@ -775,7 +767,7 @@ async function processFile(file){
     localStorage.setItem('ggr_periodo',    periodo);
     localStorage.setItem('ggr_seg',        JSON.stringify({se:seg_se,T}));
     localStorage.setItem('ggr_primary_ab', primaryAb);
-    localStorage.setItem('ggr_xlsx_b64',   xlsxB64);
+
   }catch(ex){
     showErr('localStorage lleno o bloqueado: '+ex.message+'. Intenta limpiar el caché del navegador.');
     return;
