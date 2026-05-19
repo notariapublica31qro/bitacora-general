@@ -1717,8 +1717,16 @@ function ghGetFile(filename, cb){
   fetch(GH_API + filename, {
     headers:{ Authorization:'token '+_ghToken, Accept:'application/vnd.github.v3+json' }
   })
-  .then(function(r){ return r.json(); })
+  .then(function(r){
+    if(r.status===401||r.status===403){
+      ghSetStatus('✗ Token inválido — clic ⚙ para corregir','#dc2626');
+      cb(null, null); return null;
+    }
+    if(r.status===404){ cb({}, null); return null; }
+    return r.json();
+  })
   .then(function(d){
+    if(!d) return;
     if(d && d.content){
       _ghSha[filename] = d.sha;
       var txt = atob(d.content.replace(/\n/g,''));
@@ -1727,7 +1735,7 @@ function ghGetFile(filename, cb){
       cb(obj, d.sha);
     } else { cb({}, null); }
   })
-  .catch(function(){ ghSetStatus('✗ Error carga','#dc2626'); cb(null, null); });
+  .catch(function(){ ghSetStatus('✗ Error de conexión','#dc2626'); cb(null, null); });
 }
 function ghPut(filename, content, cb){
   if(!_ghToken){ if(cb) cb(false); return; }
