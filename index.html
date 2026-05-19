@@ -680,11 +680,10 @@ async function processFile(file){
       if(isTras&&dNat>90) al_rpp90solo.push({...itemAl,li:90});
       else if(!isTras&&dNat>30) al_rpp90solo.push({...itemAl,li:30});
     }
-    if(!rppTerm){
-      if(isBa&&dNat>150) al_bancos90.push({...itemAl,li:150});
-      if(isInfo&&dNat>150) al_info90.push({...itemAl,li:150});
-      if(isFovi&&dNat>150) al_fovi90.push({...itemAl,li:150});
-    }
+    // Bancos/Info/Fovi >150: aplica con o sin rppTerm (FALTA FINALIZAR ya pasó RPP pero aún tiene acuse pendiente)
+    if(isBa&&dNat>150) al_bancos90.push({...itemAl,li:150});
+    if(isInfo&&dNat>150) al_info90.push({...itemAl,li:150});
+    if(isFovi&&dNat>150) al_fovi90.push({...itemAl,li:150});
   }
 
   setProgress(85,'Construyendo datos…');
