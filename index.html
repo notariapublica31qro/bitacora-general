@@ -782,6 +782,7 @@ async function processFile(file){
   document.getElementById('stats-wrap').style.display='block';
   document.getElementById('redirect-msg').style.display='block';
 
+  localStorage.setItem('lm','1');
   setTimeout(()=>{ window.location.href='reporte.html'; }, 1800);
 }
 
