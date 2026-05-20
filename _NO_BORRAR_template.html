@@ -833,10 +833,12 @@ const alertaEscs = new Set([
   ...getNotifcatRows().map(r=>r.e)
 ]);
 // Escrituras con alerta activa de Bancos/Infonavit/Fovissste (excepción para FF en tab Todos)
+// Incluye: vencidas (DATA.al) + todas las FF con flag pendiente en DATA_CO (cubre PV también)
 const bancosInfoFoviEscs = new Set([
   ...(DATA.al.bancos90||[]).map(r=>r.e),
   ...(DATA.al.infonavit90||[]).map(r=>r.e),
   ...(DATA.al.fovissste90||[]).map(r=>r.e),
+  ...(DATA_CO||[]).filter(r=>r.es==='FALTA FINALIZAR'&&(r.ba||r.infonavit||r.fovissste)).map(r=>r.e),
 ]);
 // Set de escrituras pendientes duras (en DATA.pe) — FF no está aquí, va en DATA_CO
 const DATA_PE_ESCS = new Set((DATA.pe||[]).map(r=>r.e));
@@ -883,8 +885,7 @@ function clearAllFilters() {
   peSgFilter=''; document.querySelectorAll('.sg-btn').forEach(b=>b.classList.remove('on'));
   const sgAll=document.getElementById('sg-btn-all'); if(sgAll) sgAll.classList.add('on');
   pePage = 0; alPage = 0;
-  alVFilter=''; document.querySelectorAll('.al-v-btn').forEach(b=>b.classList.remove('on'));
-  const alvAll=document.getElementById('al-v-btn-all'); if(alvAll) alvAll.classList.add('on');
+  var _dvc=curTab==='todos'?'':'true';var _dbc=curTab==='todos'?'al-v-btn-all':'al-v-btn-ve';alVFilter=_dvc;document.querySelectorAll('.al-v-btn').forEach(b=>b.classList.remove('on'));var _alvC=document.getElementById(_dbc);if(_alvC)_alvC.classList.add('on');
   // Reset pie buttons
   document.querySelectorAll('.pie-ab-btn').forEach(b=>b.classList.remove('on'));
   document.getElementById('pie-btn-').classList.add('on');
@@ -1098,10 +1099,6 @@ function onPieAbClick(abKey) {
   peSgFilter = '';
   document.querySelectorAll('.sg-btn').forEach(b=>b.classList.remove('on'));
   const sgAll = document.getElementById('sg-btn-all'); if(sgAll) sgAll.classList.add('on');
-  alVFilter = '';
-  document.querySelectorAll('.al-v-btn').forEach(b=>b.classList.remove('on'));
-  const alvAll = document.getElementById('al-v-btn-all'); if(alvAll) alvAll.classList.add('on');
-
   // Botones de pastel
   document.querySelectorAll('.pie-ab-btn').forEach(b => b.classList.remove('on'));
   const btn = document.getElementById('pie-btn-' + pieAbKey);
@@ -2272,7 +2269,7 @@ renderPe();
 // ALERTS
 // ═══════════════════════════════════════════════════════════════════
 let curTab='todos',alPage=0,alVFilter='';
-function switchTab(t){curTab=t;alPage=0;document.querySelectorAll('.tab').forEach(el=>el.classList.toggle('on',el.dataset.t===t));alVFilter='';document.querySelectorAll('.al-v-btn').forEach(b=>b.classList.remove('on'));document.getElementById('al-v-btn-all').classList.add('on');updateAlVCounts();renderAl();try{requestAnimationFrame(syncAlVBtnSizes);}catch(e){}}
+function switchTab(t){curTab=t;alPage=0;document.querySelectorAll('.tab').forEach(el=>el.classList.toggle('on',el.dataset.t===t));var _dv=t==='todos'?'':'true';var _db=t==='todos'?'al-v-btn-all':'al-v-btn-ve';alVFilter=_dv;document.querySelectorAll('.al-v-btn').forEach(b=>b.classList.remove('on'));document.getElementById(_db).classList.add('on');updateAlVCounts();renderAl();try{requestAnimationFrame(syncAlVBtnSizes);}catch(e){}}
 function setAlV(v){alVFilter=v;document.querySelectorAll('.al-v-btn').forEach(b=>b.classList.remove('on'));document.getElementById('al-v-btn-'+(v===''?'all':v==='false'?'pv':'ve')).classList.add('on');alPage=0;renderAl();}
 // Por Vencer: escanea DATA.pe completo buscando escrituras a ≤5 días de caer en cada categoría
 const PV_DAYS = 8;
@@ -2309,19 +2306,24 @@ function _getBankFF(tab){
   const _flag={bancos90:'ba',infonavit90:'infonavit',fovissste90:'fovissste'}[tab];
   if(!_flag) return [];
   const mk2=r=>({e:r.e,ab:r.ab,op:r.op,mu:r.mu,fe:r.fe,d:calcD(r),li:150,v:false,xp:r.xp||'',ac:r.ac||''});
-  return (DATA_CO||[]).filter(r=>r.es==='FALTA FINALIZAR'&&r[_flag]).map(mk2);
+  return (DATA_CO||[]).filter(r=>r.es==='FALTA FINALIZAR'&&r[_flag]&&calcD(r)>=150).map(mk2);
 }
 function getAlRows(){
   let rows;
   if(alVFilter==='false'){
     rows = getPorVencerRows(curTab);
   } else if(alVFilter===''){
-    // Todas = Por Vencer + Vencidas, dedup por escritura (conserva el de mayor d)
-    const seen = new Map();
-    [...getPorVencerRows(curTab),...getTabRows(curTab),..._getBankFF(curTab)].forEach(r=>{
-      if(!seen.has(r.e)||r.d>seen.get(r.e).d) seen.set(r.e,r);
-    });
-    rows = [...seen.values()];
+    if(curTab==='td'){
+      // Tab TD Vencido: "Todas" no incluye Por Vencer, solo Vencidos
+      rows = getTabRows(curTab).filter(r=>r.v===true);
+    } else {
+      // Todas = Por Vencer + Vencidas, dedup por escritura (conserva el de mayor d)
+      const seen = new Map();
+      [...getPorVencerRows(curTab),...getTabRows(curTab),..._getBankFF(curTab)].forEach(r=>{
+        if(!seen.has(r.e)||r.d>seen.get(r.e).d) seen.set(r.e,r);
+      });
+      rows = [...seen.values()];
+    }
   } else {
     rows = getTabRows(curTab).filter(r=>r.v===true);
   }
@@ -2337,7 +2339,8 @@ function getAlRows(){
         fo: pe?.fo||false
       });
     })
-    .filter(r=>!['todos','rpp45','rpp90solo'].includes(curTab)||r.es!=='FALTA FINALIZAR');
+    // Tab Todos/rpp45/rpp90solo: excluir FF salvo las que tienen alerta Bancos/Infonavit/Fovissste activa
+    .filter(r=>!['todos','rpp45','rpp90solo'].includes(curTab)||r.es!=='FALTA FINALIZAR'||bancosInfoFoviEscs.has(r.e));
 }
 function renderAl(){
   document.getElementById('al-thead').innerHTML = thHtml(AL_COLS, alSortCol, alSortDir, 'sortAl');
@@ -2533,7 +2536,8 @@ function updateAlVCounts(){
     [...pv, ...ve].forEach(r=>{ if(!seen.has(r.e)||r.d>seen.get(r.e).d) seen.set(r.e,r); });
     // Tab Todos: excluir escrituras FF salvo Bancos/Infonavit/Fovissste
     if(curTab==='todos') [...seen.keys()].forEach(e=>{ if(!DATA_PE_ESCS.has(e)&&!bancosInfoFoviEscs.has(e)) seen.delete(e); });
-    const todasN = seen.size;
+    // Tab TD Vencido: "Todas" solo cuenta vencidos, no por vencer
+    const todasN = (curTab==='td') ? ve.length : seen.size;
     const elAll = document.getElementById('cnt-v-all'); if(elAll) elAll.textContent = String(todasN);
     const elPv  = document.getElementById('cnt-v-pv');  if(elPv)  elPv.textContent  = String(pv.length);
     const elVe  = document.getElementById('cnt-v-ve');  if(elVe)  elVe.textContent  = String(ve.length);
@@ -2543,7 +2547,7 @@ function updateAlCounts(){
   ['todos','firmas','td','notifcat','rpp45','rpp90solo','bancos90','infonavit90','fovissste90'].forEach(k=>{
     const el=document.getElementById('cnt-'+k); if(!el) return;
     const seen=new Map();
-    [...getTabRows(k),..._getBankFF(k)].forEach(r=>{
+    getTabRows(k).forEach(r=>{
       if(!pieAbKey||r.ab===pieAbKey) seen.set(r.e,true);
     });
     el.textContent=seen.size;
