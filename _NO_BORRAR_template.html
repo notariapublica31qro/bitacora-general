@@ -127,7 +127,7 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-s
 .h-cal-lbl{font-size:.66rem;color:#a37b54;font-weight:700;letter-spacing:.18em;text-transform:uppercase;}
 .h-center{display:flex;flex-direction:column;align-items:stretch;gap:3px;width:fit-content;}
 .h-ribbon{display:block;background:linear-gradient(135deg,#a37b54,#8b6440);color:#fff;padding:4px 14px;border-radius:6px;font-size:.7rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase;text-align:center;}
-.h-title{font-size:1.45rem;font-weight:900;color:var(--text);letter-spacing:-.01em;line-height:1;}
+.h-title{font-size:1.1rem;font-weight:900;color:var(--text);letter-spacing:-.01em;line-height:1;}
 .h-periodo{font-size:.86rem;color:var(--text);font-weight:600;margin-top:2px;}
 .h-periodo .lbl{color:#a37b54;font-weight:800;}
 .h-logo{width:340px;height:auto;flex-shrink:0;}
@@ -545,7 +545,7 @@ th.col-tr, td.col-tr{width:140px;text-align:center;font-size:.84rem;font-weight:
   </div>
   <div class="h-center">
     <span class="h-ribbon">Reporte Ejecutivo</span>
-    <div style="position:relative;width:0;height:1.45rem;overflow:visible;flex-shrink:0;">
+    <div style="position:relative;width:0;height:1.1rem;overflow:visible;flex-shrink:0;">
       <span class="h-title" id="h-title-main" style="position:absolute;left:0;top:0;white-space:nowrap;">Bitácora de Escrituras</span>
     </div>
     <span class="h-periodo"><span class="lbl">Periodo:</span> <span id="hdr-periodo">Mar 2019 - Abr 2026</span></span>
@@ -2014,7 +2014,7 @@ function fitColText(tableId, colIndices){
     tbl.querySelectorAll('tbody tr').forEach(function(row){
       const td=row.cells[colIdx];
       if(!td) return;
-      const chip=td.querySelector('.chip');
+      const chip=td.querySelector('.chip,.c-ac');
       const target=chip||td;
       // Reset inline font-size para medir desde base CSS
       if(chip){ chip.style.removeProperty('font-size'); chip.style.removeProperty('padding'); }
