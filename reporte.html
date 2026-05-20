@@ -685,6 +685,7 @@ th.col-tr, td.col-tr{width:140px;text-align:center;font-size:.84rem;font-weight:
 </div>
 <div id="ex-sel-outer" style="position:relative;">
   <div id="ex-handles-panel" style="position:absolute;left:-22px;top:0;width:20px;height:100%;z-index:2;"></div>
+  <div id="ex-del-panel"     style="position:absolute;right:-24px;top:0;width:22px;height:100%;z-index:2;"></div>
   <div class="twrap">
     <table id="ex-table" style="table-layout:fixed;width:100%;">
       <thead><tr id="ex-thead"></tr></thead>
@@ -693,6 +694,7 @@ th.col-tr, td.col-tr{width:140px;text-align:center;font-size:.84rem;font-weight:
   </div>
 </div>
 <div id="ex-pag" class="pag" style="margin-top:6px;"></div>
+<button id="ex-del-float" style="position:fixed;display:none;z-index:9999;background:#dc2626;color:#fff;border:none;border-radius:5px;padding:3px 10px;font-size:.75rem;font-weight:700;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.45);white-space:nowrap;pointer-events:auto;" onclick="confirmDeleteExRow()">&#128465; Borrar fila</button>
 
 <div id="sec-al" class="sec" style="display:flex;align-items:center;justify-content:space-between;" onclick="toggleSection('sec-al')"><span><span class="sec-emoji">🚨</span>PUNTOS CRÍTICOS</span><div style="display:none;gap:7px;"><button class="btn" style="background:#16a34a" onclick="exportAlCSV()">⬇ CSV</button><button class="btn" style="background:#dc2626" onclick="exportAlPDF()">⬇ PDF</button></div><span class="sec-chev">▾</span></div>
 <div class="tabs-vbtns-wrapper">
@@ -2725,8 +2727,34 @@ function exTabLast(e,di,ci){
 function selectExRow(di){
   selectedExRow=(selectedExRow===di)?null:di;
   var rows=document.getElementById('ex-tbody').rows;
-  for(var r=0;r<rows.length;r++)
-    rows[r].classList.toggle('ex-row-selected',parseInt(rows[r].dataset.di)===selectedExRow);
+  var selRow=null;
+  for(var r=0;r<rows.length;r++){
+    var isSel=parseInt(rows[r].dataset.di)===selectedExRow;
+    rows[r].classList.toggle('ex-row-selected',isSel);
+    if(isSel) selRow=rows[r];
+  }
+  _posExDelFloat(selRow);
+}
+function _posExDelFloat(selRow){
+  var btn=document.getElementById('ex-del-float');
+  if(!btn) return;
+  if(selRow&&selectedExRow!==null){
+    var rect=selRow.getBoundingClientRect();
+    var bTop=Math.max(4,Math.min(window.innerHeight-30,rect.top+rect.height/2-11));
+    var bLeft=Math.min(window.innerWidth-120,rect.right+6);
+    btn.style.top=bTop+'px'; btn.style.left=bLeft+'px'; btn.style.display='block';
+  } else { btn.style.display='none'; }
+}
+function confirmDeleteExRow(){
+  if(selectedExRow===null) return;
+  var r=EX_DATA&&EX_DATA[selectedExRow];
+  var hasContent=r&&(r.xp||r.cl||r.op||r.td||r.ac||r.mu||r.es||r.tr);
+  if(!hasContent||window.confirm('¿Borrar el contenido de esta fila?')){
+    clearExRow(selectedExRow);
+  } else {
+    var btn=document.getElementById('ex-del-float'); if(btn) btn.style.display='none';
+    selectedExRow=null;
+  }
 }
 
 function clearExRow(di){
@@ -2734,6 +2762,7 @@ function clearExRow(di){
   exUndoStack.push({di:di,data:Object.assign({},EX_DATA[di])});
   if(exUndoStack.length>20) exUndoStack.shift();
   EX_DATA[di]={ab:'',xp:'',cl:'',op:'',td:'',ac:'',mu:'',es:'',tr:''};
+  var _dfb=document.getElementById('ex-del-float'); if(_dfb) _dfb.style.display='none';
   selectedExRow=null; renderEx(); saveExpedientesDebounced();
 }
 
@@ -2861,19 +2890,24 @@ function renderEx(){
 
 function updateExHandles(){
   var panel=document.getElementById('ex-handles-panel');
+  var delPanel=document.getElementById('ex-del-panel');
   var tbody=document.getElementById('ex-tbody');
   var outer=document.getElementById('ex-sel-outer');
   if(!panel||!tbody||!outer) return;
   var outerRect=outer.getBoundingClientRect();
-  var html='';
+  var html=''; var delHtml=''; var selRowEl=null;
   for(var i=0;i<tbody.rows.length;i++){
     var row=tbody.rows[i];
     var rr=row.getBoundingClientRect();
     var top=rr.top-outerRect.top;
     var di=row.dataset.di;
     html+='<div style="position:absolute;top:'+top+'px;height:'+rr.height+'px;width:20px;cursor:pointer;" onclick="selectExRow('+di+')"></div>';
+    delHtml+='<div style="position:absolute;top:'+top+'px;height:'+rr.height+'px;width:22px;cursor:pointer;" onclick="selectExRow('+di+')"></div>';
+    if(parseInt(di)===selectedExRow) selRowEl=row;
   }
   panel.innerHTML=html;
+  if(delPanel) delPanel.innerHTML=delHtml;
+  if(selRowEl) _posExDelFloat(selRowEl);
 }
 
 // Teclado — Delete/Backspace=borrar fila, Cmd+Z=deshacer (solo cuando foco fuera de ex-table)
