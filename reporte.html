@@ -812,7 +812,7 @@ function getTabRows(tab){
     return [...seen.values()]; // FF filtradas en sub-tabs excluidos; permitidas desde bancos/info/fovi
   }
   if(tab==='notifcat')   return getNotifcatRows();
-  if(tab==='td')         return (DATA.al.td||[]).filter(r=>r.v&&!FF_ESCS.has(r.e));
+  if(tab==='td')         return (DATA.al.td||[]).filter(r=>!FF_ESCS.has(r.e));
   if(tab==='firmas')     return (DATA.al.firmas||[]).filter(r=>!FF_ESCS.has(r.e));
   if(tab==='rpp45')      return (DATA.al.rpp45||[]).filter(r=>!FF_ESCS.has(r.e)&&(peMap[r.e]?.es||'')!=='FALTA FINALIZAR');
   if(tab==='rpp90solo')  return (DATA.al.rpp90solo||[]).filter(r=>!FF_ESCS.has(r.e)&&(peMap[r.e]?.es||'')!=='FALTA FINALIZAR');
@@ -2151,22 +2151,7 @@ function _buildPrintHtml(tableId, title) {
     +"</head><body>"
     +"<h2>" + title + "</h2>"
     + clone.outerHTML
-    +"</body>
-<script id="fix-updateAlCounts">
-function updateAlCounts(){
-  ['todos','firmas','td','notifcat','rpp45','rpp90solo','bancos90','infonavit90','fovissste90'].forEach(function(k){
-    var el=document.getElementById('cnt-'+k); if(!el) return;
-    var seen=new Map();
-    getTabRows(k).forEach(function(r){
-      if(!pieAbKey||r.ab===pieAbKey) seen.set(r.e,true);
-    });
-    el.textContent=seen.size;
-  });
-  requestAnimationFrame(syncAlVBtnSizes);
-}
-updateAlCounts();
-</script>
-</html>";
+    +"</body></html>";
 }
 
 function exportPePDF(){
