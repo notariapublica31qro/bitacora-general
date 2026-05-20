@@ -2014,7 +2014,7 @@ function fitColText(tableId, colIndices){
     tbl.querySelectorAll('tbody tr').forEach(function(row){
       const td=row.cells[colIdx];
       if(!td) return;
-      const chip=td.querySelector('.chip');
+      const chip=td.querySelector('.chip,.c-ac');
       const target=chip||td;
       // Reset inline font-size para medir desde base CSS
       if(chip){ chip.style.removeProperty('font-size'); chip.style.removeProperty('padding'); }
