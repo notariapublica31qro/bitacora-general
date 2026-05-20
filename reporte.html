@@ -2151,7 +2151,22 @@ function _buildPrintHtml(tableId, title) {
     +"</head><body>"
     +"<h2>" + title + "</h2>"
     + clone.outerHTML
-    +"</body></html>";
+    +"</body>
+<script id="fix-updateAlCounts">
+function updateAlCounts(){
+  ['todos','firmas','td','notifcat','rpp45','rpp90solo','bancos90','infonavit90','fovissste90'].forEach(function(k){
+    var el=document.getElementById('cnt-'+k); if(!el) return;
+    var seen=new Map();
+    getTabRows(k).forEach(function(r){
+      if(!pieAbKey||r.ab===pieAbKey) seen.set(r.e,true);
+    });
+    el.textContent=seen.size;
+  });
+  requestAnimationFrame(syncAlVBtnSizes);
+}
+updateAlCounts();
+</script>
+</html>";
 }
 
 function exportPePDF(){
