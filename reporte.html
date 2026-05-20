@@ -812,7 +812,7 @@ function getTabRows(tab){
     return [...seen.values()]; // FF filtradas en sub-tabs excluidos; permitidas desde bancos/info/fovi
   }
   if(tab==='notifcat')   return getNotifcatRows();
-  if(tab==='td')         return (DATA.al.td||[]).filter(r=>!FF_ESCS.has(r.e));
+  if(tab==='td')         return (DATA.al.td||[]).filter(r=>r.v&&!FF_ESCS.has(r.e));
   if(tab==='firmas')     return (DATA.al.firmas||[]).filter(r=>!FF_ESCS.has(r.e));
   if(tab==='rpp45')      return (DATA.al.rpp45||[]).filter(r=>!FF_ESCS.has(r.e)&&(peMap[r.e]?.es||'')!=='FALTA FINALIZAR');
   if(tab==='rpp90solo')  return (DATA.al.rpp90solo||[]).filter(r=>!FF_ESCS.has(r.e)&&(peMap[r.e]?.es||'')!=='FALTA FINALIZAR');
