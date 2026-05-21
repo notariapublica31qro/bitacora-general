@@ -116,7 +116,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "DETENIDO",
+    "es": "ACTIVAR",
     "tr": "TRAMITAR",
     "ab": "GGR"
   },
@@ -127,7 +127,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
+    "es": "ACTIVAR",
     "tr": "INES-COMP",
     "ab": "GGR"
   },
@@ -138,8 +138,8 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "CUP-CNP-DEFINIR ESC",
+    "es": "ACTIVAR",
+    "tr": "EXTINCION",
     "ab": "GGR"
   },
   {
@@ -194,7 +194,7 @@
     "ac": "QRO",
     "mu": "",
     "es": "ADELANTADO",
-    "tr": "PAGOS-COPIA JUZGADO-PREDIAL",
+    "tr": "PAGOS-COP JUZGADO-PRED",
     "ab": "GGR"
   },
   {
@@ -226,8 +226,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "DETENIDO",
-    "tr": "INE-JUZGADO-OFICIO",
+    "es": "ACTIVAR",
+    "tr": "INE-OFICIO",
     "ab": "GGR"
   },
   {
@@ -248,7 +248,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "PENDIENTE",
+    "es": "ACTIVAR",
     "tr": "PROYECTO",
     "ab": "GGR"
   },
@@ -260,7 +260,7 @@
     "ac": "",
     "mu": "",
     "es": "ADELANTADO",
-    "tr": "DOCUMENTOS",
+    "tr": "CARTA",
     "ab": "GGR"
   },
   {
@@ -271,7 +271,7 @@
     "ac": "",
     "mu": "SCO",
     "es": "ADELANTADO",
-    "tr": "DOCUMENTOS",
+    "tr": "CARTA",
     "ab": "GGR"
   },
   {
@@ -292,8 +292,8 @@
     "td": "",
     "ac": "QRO",
     "mu": "",
-    "es": "PENDIENTE",
-    "tr": "71579",
+    "es": "ACTIVAR",
+    "tr": "PROYECTO",
     "ab": "GGR"
   },
   {
@@ -303,8 +303,8 @@
     "td": "SI",
     "ac": "COR",
     "mu": "SANT",
-    "es": "ADELANTADO",
-    "tr": "VOBO",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
     "ab": "GGR"
   },
   {
@@ -315,7 +315,7 @@
     "ac": "QRO",
     "mu": "COFI-SANT",
     "es": "ADELANTADO",
-    "tr": "EXP INFO-CLG",
+    "tr": "EXP INFO",
     "ab": "GGR"
   },
   {
@@ -347,8 +347,19 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "PENDIENTE",
-    "tr": "DOCUMENTOS",
+    "es": "ADELANTADO",
+    "tr": "NOMBRE",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7072.20",
+    "cl": "AHOA",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": "",
     "ab": "GGR"
   }
 ]
