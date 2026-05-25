@@ -278,6 +278,9 @@ al_bancos90 = []; al_info90 = []; al_fovi90 = []
 
 for row in rows_iter:
     if all(v is None for v in row): continue
+    # Rellenar filas cortas (columnas finales vacías que openpyxl omite en read_only)
+    if len(row) < len(header):
+        row = row + (None,) * (len(header) - len(row))
     total += 1
     r_dict = dict(zip(header, row))
 
