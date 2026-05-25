@@ -2161,22 +2161,7 @@ function _buildPrintHtml(tableId, title) {
     +"</head><body>"
     +"<h2>" + title + "</h2>"
     + clone.outerHTML
-    +"
-<script>
-// Actualizar fecha de referencia desde localStorage (GitHub Pages flow)
-(function(){
-  try{
-    if(!localStorage.getItem('ggr_data')) return;
-    var mes  = localStorage.getItem('ggr_ref_mes');
-    var dia  = localStorage.getItem('ggr_ref_dia');
-    var anio = localStorage.getItem('ggr_ref_anio');
-    if(mes)  document.getElementById('cal-mes').textContent = mes;
-    if(dia)  document.getElementById('cal-dia').textContent = dia;
-    if(anio) document.getElementById('cal-anio').textContent = anio;
-  }catch(e){}
-})();
-</script>
-</body></html>";
+    +"</body></html>";
 }
 
 function exportPePDF(){
@@ -3161,4 +3146,18 @@ function toggleLightMode(){
     </div>
   </div>
 </div>
+
+<script>
+(function(){
+  try{
+    if(!localStorage.getItem('ggr_data')) return;
+    var mes=localStorage.getItem('ggr_ref_mes');
+    var dia=localStorage.getItem('ggr_ref_dia');
+    var anio=localStorage.getItem('ggr_ref_anio');
+    if(mes)  document.getElementById('cal-mes').textContent=mes;
+    if(dia)  document.getElementById('cal-dia').textContent=dia;
+    if(anio) document.getElementById('cal-anio').textContent=anio;
+  }catch(e){}
+})();
+</script>
 </body>
