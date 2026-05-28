@@ -116,8 +116,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ACTIVAR",
-    "tr": "TRAMITAR",
+    "es": "ADELANTADO",
+    "tr": "BLOQUEO RPP",
     "ab": "GGR"
   },
   {
@@ -127,8 +127,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ACTIVAR",
-    "tr": "INES-COMP",
+    "es": "LISTO PARA FIRMA",
+    "tr": "ACTA",
     "ab": "GGR"
   },
   {
@@ -138,8 +138,8 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "ACTIVAR",
-    "tr": "EXTINCION",
+    "es": "LISTO PARA FIRMA",
+    "tr": "CNP",
     "ab": "GGR"
   },
   {
@@ -155,18 +155,18 @@
   },
   {
     "xp": "7085.25",
-    "cl": "JOSE ESTEBAN CAMACHO GUERRERO",
+    "cl": "JOSE ESTEBAN CAMACHO GUERRE",
     "op": "APLICACION DE BIENES",
     "td": "SI",
     "ac": "QRO",
     "mu": "",
     "es": "LISTO PARA FIRMA",
-    "tr": "VALOR-CESION TD-CANCELAR",
+    "tr": "DEVOLVER",
     "ab": "GGR"
   },
   {
     "xp": "7117.25",
-    "cl": "MARIA GUADALUPE ROSALES UGALDE",
+    "cl": "MARIA GUADALUPE ROSALES UGALD",
     "op": "DONACION",
     "td": "SI",
     "ac": "QRO",
@@ -194,7 +194,7 @@
     "ac": "QRO",
     "mu": "",
     "es": "ADELANTADO",
-    "tr": "PAGOS-COP JUZGADO-PRED",
+    "tr": "PAGOS-COP JUZG-PREDIAL",
     "ab": "GGR"
   },
   {
@@ -226,7 +226,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ACTIVAR",
+    "es": "ADELANTADO",
     "tr": "INE-OFICIO",
     "ab": "GGR"
   },
@@ -269,7 +269,7 @@
     "op": "CANCELACION",
     "td": "",
     "ac": "",
-    "mu": "SCO",
+    "mu": "",
     "es": "ADELANTADO",
     "tr": "CARTA",
     "ab": "GGR"
@@ -281,7 +281,7 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "PENDIENTE",
+    "es": "DETENIDO",
     "tr": "INE HIJA-PREDIAL-ESCRITURA-CUPX2-CLG",
     "ab": "GGR"
   },
@@ -290,10 +290,10 @@
     "cl": "RITA ZOILA PEREZ ZARATE",
     "op": "EXTINCION DE USUFRUCTO",
     "td": "",
-    "ac": "QRO",
+    "ac": "",
     "mu": "",
-    "es": "ACTIVAR",
-    "tr": "PROYECTO",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
     "ab": "GGR"
   },
   {
@@ -320,13 +320,13 @@
   },
   {
     "xp": "7068.26",
-    "cl": "VICTOR MANUEL SAN MARTIN BUSTOS",
+    "cl": "VICTOR MANUEL SAN MARTIN BUST",
     "op": "COMPRAVENTA-CREDITO",
     "td": "SI",
     "ac": "COR",
     "mu": "COFI-HSBC",
-    "es": "PENDIENTE",
-    "tr": "EXP INFO",
+    "es": "ACTIVAR",
+    "tr": "PROYECTO",
     "ab": "GGR"
   },
   {
@@ -342,13 +342,13 @@
   },
   {
     "xp": "7070.26",
-    "cl": "ADRIAN GONZALO PUENTE SUAREZ",
+    "cl": "MITZIN XCHEL GUERRERO SOLORIO",
     "op": "SOCIEDAD",
     "td": "",
     "ac": "",
     "mu": "",
     "es": "ADELANTADO",
-    "tr": "NOMBRE",
+    "tr": "DEFINIR",
     "ab": "GGR"
   },
   {
@@ -404,6 +404,61 @@
     "mu": "",
     "es": "",
     "tr": "",
+    "ab": "GGR"
+  },
+  {
+    "xp": "6060.26",
+    "ab": "ATM",
+    "cl": "HOLA2",
+    "op": "HOLA2",
+    "td": "SI",
+    "ac": "COFI-SANT",
+    "mu": "QRP",
+    "es": "PENDIENTW",
+    "tr": "DOCUMENTOS"
+  },
+  {
+    "xp": "7074.26",
+    "cl": "CONSEJO DE TASADORES",
+    "op": "PROTOCOLIZACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7075.26",
+    "cl": "CONSEJO DE TASADORES",
+    "op": "PROTOCOLIZACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7076.26",
+    "cl": "CONSEJO DE TASADORES AC",
+    "op": "PROTOCOLIZACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "ADELANTADO",
+    "tr": "ACTA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7077.26",
+    "cl": "ARQOS UNIDAD DE VALUACION",
+    "op": "PROTOCOLIZACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "ACTIVAR",
+    "tr": "PROYECTO",
     "ab": "GGR"
   }
 ]
