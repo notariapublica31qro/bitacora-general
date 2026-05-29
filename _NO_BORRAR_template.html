@@ -812,7 +812,7 @@ function getTabRows(tab){
     return [...seen.values()]; // FF filtradas en sub-tabs excluidos; permitidas desde bancos/info/fovi
   }
   if(tab==='notifcat')   return getNotifcatRows();
-  if(tab==='td')         return (DATA.al.td||[]).filter(r=>!FF_ESCS.has(r.e));
+  if(tab==='td')         return (DATA.al.td||[]).filter(r=>r.v&&!FF_ESCS.has(r.e));
   if(tab==='firmas')     return (DATA.al.firmas||[]).filter(r=>!FF_ESCS.has(r.e));
   if(tab==='rpp45')      return (DATA.al.rpp45||[]).filter(r=>!FF_ESCS.has(r.e)&&(peMap[r.e]?.es||'')!=='FALTA FINALIZAR');
   if(tab==='rpp90solo')  return (DATA.al.rpp90solo||[]).filter(r=>!FF_ESCS.has(r.e)&&(peMap[r.e]?.es||'')!=='FALTA FINALIZAR');
@@ -2530,18 +2530,12 @@ function updateAlVCounts(){
   try {
     const ab = pieAbKey;
     const filt = arr => ab ? (arr||[]).filter(r=>r.ab===ab) : (arr||[]);
-    let ve = filt(getTabRows(curTab));
-    // Tab Todos: excluir TODAS las FF (solo aparecen en Bancos/Infonavit/Fovissste)
-    if(curTab==='todos'){
-      ve = ve.filter(r=>DATA_PE_ESCS.has(r.e));
-    }
-    // Todos los contadores muestran solo VENCIDAS (de-duplicado por escritura)
-    const seenVe = new Map();
-    ve.forEach(r=>{ if(!seenVe.has(r.e)) seenVe.set(r.e,r); });
-    const veN = seenVe.size;
-    const elAll = document.getElementById('cnt-v-all'); if(elAll) elAll.textContent = String(veN);
-    const elPv  = document.getElementById('cnt-v-pv');  if(elPv)  elPv.textContent  = String(veN);
-    const elVe  = document.getElementById('cnt-v-ve');  if(elVe)  elVe.textContent  = String(veN);
+    const pv = filt(getPorVencerRows(curTab));
+    const ve = filt(getTabRows(curTab));
+    // Contadores: solo cuentan VENCIDAS (no Por Vencer)
+    const elAll = document.getElementById('cnt-v-all'); if(elAll) elAll.textContent = String(ve.length);
+    const elPv  = document.getElementById('cnt-v-pv');  if(elPv)  elPv.textContent  = String(pv.length);
+    const elVe  = document.getElementById('cnt-v-ve');  if(elVe)  elVe.textContent  = String(ve.length);
   } catch(e) { console.error('updateAlVCounts error:', e); }
 }
 function updateAlCounts(){
