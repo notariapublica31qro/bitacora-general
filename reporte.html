@@ -561,7 +561,7 @@ var _LZM='\u0001';var _lzGet=function(k){try{var v=localStorage.getItem(k);if(v=
     </div>
     <span class="h-periodo"><span class="lbl">Periodo:</span> <span id="hdr-periodo">Ene 2025 - May 2026</span></span>
     <span id="periodo-label" style="display:none">Ene 2025 - May 2026</span>
-    <span id="gh-sync-wrap" style="display:flex;align-items:center;gap:6px;margin-top:5px;width:100%;"><span id="gh-sync-status" style="font-size:.7rem;font-weight:600;color:#6c8ef5;cursor:default;">&#x27F3; Conectando...</span><button onclick="openGhModal()" style="padding:1px 6px;border-radius:4px;cursor:pointer;font-size:.8rem;line-height:1.4;" title="Configurar token GitHub">&#x2699;</button><button onclick="setCliKey()" style="padding:1px 6px;border-radius:4px;cursor:pointer;font-size:.8rem;line-height:1.4;" title="Clave de cifrado de CLIENTE">&#128274;</button><button id="btn-excel" onclick="exportGGRExcel()" title="Descargar Excel" style="display:inline-flex;align-items:center;gap:4px;margin-left:auto;padding:3px 9px;border-radius:7px;border:none;background:#16a34a;color:#fff;font-size:.7rem;font-weight:700;cursor:pointer;font-family:inherit;letter-spacing:.02em;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Excel</button></span>
+    <span id="gh-sync-wrap" style="display:flex;align-items:center;gap:6px;margin-top:5px;width:100%;"><span id="gh-sync-status" style="font-size:.7rem;font-weight:600;color:#6c8ef5;cursor:default;">&#x27F3; Conectando...</span><button onclick="openGhModal()" style="padding:1px 6px;border-radius:4px;cursor:pointer;font-size:.8rem;line-height:1.4;" title="Configurar token GitHub">&#x2699;</button><button id="btn-excel" onclick="exportGGRExcel()" title="Descargar Excel" style="display:inline-flex;align-items:center;gap:4px;margin-left:auto;padding:3px 9px;border-radius:7px;border:none;background:#16a34a;color:#fff;font-size:.7rem;font-weight:700;cursor:pointer;font-family:inherit;letter-spacing:.02em;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Excel</button></span>
   </div>
   <div class="h-ring" id="meta-ring">
     <svg width="92" height="92" viewBox="0 0 92 92">
@@ -2845,55 +2845,12 @@ function cleanExByEscrituras(){
   return changed;
 }
 
-// ── Cifrado del campo CLIENTE (AES-GCM, clave compartida en localStorage n31_cli_key) ──
-var _cliKey=null;
-async function _getCliKey(){
-  if(_cliKey) return _cliKey;
-  var hex=(localStorage.getItem('n31_cli_key')||'').trim();
-  if(hex.length<32) return null;
-  try{
-    var raw=new Uint8Array(hex.match(/.{1,2}/g).map(function(b){return parseInt(b,16);}));
-    _cliKey=await crypto.subtle.importKey('raw',raw,{name:'AES-GCM'},false,['encrypt','decrypt']);
-    return _cliKey;
-  }catch(e){ return null; }
-}
-async function clEnc(plain){
-  if(plain==null||plain==='') return plain;
-  if(String(plain).indexOf('enc:')===0) return plain;
-  var key=await _getCliKey(); if(!key) return plain;
-  var iv=crypto.getRandomValues(new Uint8Array(12));
-  var ct=await crypto.subtle.encrypt({name:'AES-GCM',iv},key,new TextEncoder().encode(String(plain)));
-  var ctb=new Uint8Array(ct), buf=new Uint8Array(12+ctb.length); buf.set(iv,0); buf.set(ctb,12);
-  var bin=''; for(var i=0;i<buf.length;i++) bin+=String.fromCharCode(buf[i]);
-  return 'enc:'+btoa(bin);
-}
-async function clDec(s){
-  if(s==null||String(s).indexOf('enc:')!==0) return s;
-  var key=await _getCliKey(); if(!key) return '\u{1F512} (sin clave)';
-  try{
-    var bin=atob(String(s).slice(4)); var buf=new Uint8Array(bin.length);
-    for(var i=0;i<bin.length;i++) buf[i]=bin.charCodeAt(i);
-    var pt=await crypto.subtle.decrypt({name:'AES-GCM',iv:buf.slice(0,12)},key,buf.slice(12));
-    return new TextDecoder().decode(pt);
-  }catch(e){ return '\u{1F512} (clave incorrecta)'; }
-}
-async function clDecInPlace(arr){ if(!arr) return; for(var i=0;i<arr.length;i++){ if(arr[i]&&arr[i].cl){ arr[i].cl=await clDec(arr[i].cl); } } }
-async function clEncArr(arr){ var out=[]; for(var i=0;i<arr.length;i++){ var r=Object.assign({},arr[i]||{}); if(r.cl){ r.cl=await clEnc(r.cl); } out.push(r); } return out; }
-function setCliKey(){
-  var cur=(localStorage.getItem('n31_cli_key')||'');
-  var k=prompt('Clave de cifrado del campo CLIENTE (64 hex). Debe ser la MISMA en TODOS los reportes (coordinadora + abogados):', cur);
-  if(k===null) return;
-  localStorage.setItem('n31_cli_key', k.trim()); _cliKey=null;
-  try{ loadExpedientes(); }catch(e){}
-}
 function saveExpedientesDebounced(){
   clearTimeout(_ghSaveTimer.ex);
   _ghSaveTimer.ex=setTimeout(function(){
     ghSetStatus('⟳ Guardando...','#6c8ef5');
-    clEncArr(EX_DATA).then(function(payload){
-      ghPut('expedientes.json', payload, function(ok){
-        ghSetStatus(ok?'✓ Guardado':'✗ Error guardado', ok?'#16a34a':'#dc2626');
-      });
+    ghPut('expedientes.json', EX_DATA, function(ok){
+      ghSetStatus(ok?'✓ Guardado':'✗ Error guardado', ok?'#16a34a':'#dc2626');
     });
   },2500);
 }
@@ -2911,11 +2868,9 @@ function loadExpedientes(){
     // Sincronizar entradas de todos los abogados
     ghSetStatus('⟳ Sincronizando abogados...','#6c8ef5');
     syncFromAbogados(function(changed){
-      clDecInPlace(EX_DATA).then(function(){
-        if(changed) saveExpedientesDebounced();
-        ghSetStatus('✓ Sincronizado','#16a34a');
-        renderEx();
-      });
+      if(changed) saveExpedientesDebounced();
+      ghSetStatus('✓ Sincronizado','#16a34a');
+      renderEx();
     });
   });
 }
