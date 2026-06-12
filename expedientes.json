@@ -2,7 +2,7 @@
   {
     "ab": "JCL",
     "xp": "4118.26",
-    "cl": "enc:O8lNagl+dMY5OZ2aVyk2TPGoTu4d5jEfvUu/39iRtd0XR+POyvVrGvB/UODQUOWCnQ==",
+    "cl": "",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -13,7 +13,7 @@
   {
     "ab": "JCL",
     "xp": "4173.26",
-    "cl": "enc:3z2uLw54M2sD0+6s9Hs+DlzqU4s6shkKeapCWYd92hvNi5DG8lzzC8Bx1/8=",
+    "cl": "enc:Yv7l1HxujkCtt2fX3CyNQpWpA0uAm+fVxP0TCJLLopVOUdCTDprTy4nu2ck=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "COLÃÂÃÂN",
@@ -24,7 +24,7 @@
   {
     "ab": "JCL",
     "xp": "4291.26",
-    "cl": "enc:oT74a8V2M67MjI3LL+wIgiJHzdY24sM2QJDzTWd+w1+95iHE8IrpaUFwo3I=",
+    "cl": "enc:7ZsuR17nsLaU3uk3el/1pFhMWFuhXoYEoDEFTMFsxb6dMxlgH6MTIRsXTIc=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "EL MARQUÃÂÃÂS",
@@ -35,7 +35,7 @@
   {
     "ab": "LSR",
     "xp": "5014.26",
-    "cl": "enc:sBOCtZLkxGVhmTuBw1UnSE4+WpitunT3+qVeoxrr2Y5ppVaNDMmRVXZKv9Q=",
+    "cl": "enc:7ggNb/P2SbcbI41q/ooaHwZVYgVzuVsoVBr7WULQbMLzhUSXIIRUDVZmfAk=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -46,7 +46,7 @@
   {
     "ab": "LSR",
     "xp": "5026.26",
-    "cl": "enc:slT/ZBN8xn37GDDBlIbKURk3jutf9ECVorwfp2I/gBM38mz444He3T2jojI=",
+    "cl": "enc:lu1beqgJIByQSUvJPORoqDZaLn0Nm4GnBkQwHskeEiJ942uDKP/Igw9Vqsw=",
     "op": "SOCIEDAD",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -57,7 +57,7 @@
   {
     "ab": "LSR",
     "xp": "5071.26",
-    "cl": "enc:EuicstRetIDqD6Yz7HLWVKp1+eLYLOmS/b5bE4tJdbYDr4hJ0WgWhh7a/Xo=",
+    "cl": "enc:dGsMlDwV1SAaPXubMC6ZuYwpRJeOMN+ql2lrVY73KnohcXPj2a6/T6soc5w=",
     "op": "SOCIEDAD",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -68,7 +68,7 @@
   {
     "ab": "LSR",
     "xp": "5078.26",
-    "cl": "enc:FtyUgoe9IbIOCpxYRsDvfs0l5gSKuxMznqsaMxN8EIm7AoAEqLvrpcI15bk=",
+    "cl": "enc:Z6IVDSwg4CLSamxkLAdXzcduH7o4j28ADllNXB2EG/osHC9KKxbdDm7Vfq8=",
     "op": "SOCIEDAD",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -79,7 +79,7 @@
   {
     "ab": "LSR",
     "xp": "5097.26",
-    "cl": "enc:7oJZ90x4y+tyZxv22yfsLdX9UCc+fgCuepNjiCss++Nu1Iul6TdcSnVsW+Q=",
+    "cl": "enc:Dc8GH+MDShwE5yd9fI8zQ8zYyhuXKlQcMsFLfi3anBeRt1N4ICqACHSX6Fg=",
     "op": "SOCIEDAD",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -90,7 +90,7 @@
   {
     "ab": "LSR",
     "xp": "5114.26",
-    "cl": "enc:ZSjck00bEsBnLzeqHYzwfTRXckJYjpIoqXp3HCprZeVP8cqR798BsSv3ZDA=",
+    "cl": "enc:fcf2zYwWU3Ysd18NzXHRtw5IslZ0ZMBQC6FXDRyzX3jzCzEUljidWjSU77M=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -101,7 +101,7 @@
   {
     "ab": "LSR",
     "xp": "5124.26",
-    "cl": "enc:ZBum25JBL3VuvelOfKas1eWjmZozk6TTqqZn1wPH0b0wEt5nZgTeuErcM+8=",
+    "cl": "enc:TA9QrqsWaVHhy89ay2XbOfBLE5J93NrLdnPDDWgsFNSsKfL9m+6Ub9Z6qvw=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -111,7 +111,7 @@
   },
   {
     "xp": "7011.23",
-    "cl": "enc:brsGRWJCMLX3YDCvu816Aq5ikWV1spQazdm6ofYpEJBJJQ7E0SilNKXikCRmM+pO0BF3",
+    "cl": "enc:tS1Bu6hNz+c3MBnibaboz3vhuCoEBOWRxqhB3jA3///BHITHsVM8/Cl4AZlF1YU9L0r4",
     "op": "TRAMITE",
     "td": "",
     "ac": "",
@@ -123,7 +123,7 @@
   {
     "ab": "LSR",
     "xp": "5134.26",
-    "cl": "enc:1Ua0NB8Xx7UKCBDxPc7sZwfrWszGt5piO1IpmPVhfjPgDemIXEobBcUtarY=",
+    "cl": "enc:Lac/cvkCHk09D8qRft5Es9vG82kG3fC+VczV7mVZA511ZLMLUajdRCw0HIg=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -133,7 +133,7 @@
   },
   {
     "xp": "7059.24",
-    "cl": "enc:dmWQ46VLqRs5B/kzAaVnTMS3ZceKtF5U+MjP1/Z3tLnxKd0IycDYKhh58K7UPqhal/mr",
+    "cl": "enc:TsZHWlOCe7nryPmHcSBVUKOW9Z3QhibyJbewY/pGagDlL2p1zQK8Dt0lKbp0xI3Xca44",
     "op": "APLICACION DE BIENES",
     "td": "SI",
     "ac": "QRO",
@@ -144,7 +144,7 @@
   },
   {
     "xp": "7344.24",
-    "cl": "enc:TZQ8vbseayrkYDY1s5e5fGM16pJ6m7wtmqhPupNa0hAFDBskVPRaBgo7DXc=",
+    "cl": "enc:yePAjK3x1Ak74jv/2VKrprP0sybvjkoKsqrIZoElhvdhbV/RZIs4qgEJj2I=",
     "op": "APLICACION NO TD",
     "td": "",
     "ac": "",
@@ -155,7 +155,7 @@
   },
   {
     "xp": "7085.25",
-    "cl": "enc:QEEzR3PFBsV97pbQExu+9RhZEegauDXVcayjKMQdcJj9rHjy1Kz23AFBgdzVJRxBY0PTA2NbjQ==",
+    "cl": "enc:ha8nhCrpRA0GvckbtQIU8iuOWNnjPu7O7ZxPTWeFlSF1iHigP4gMZypbnmfft/0Tf7oBS9JpdQ==",
     "op": "APLICACION DE BIENES",
     "td": "SI",
     "ac": "QRO",
@@ -167,7 +167,7 @@
   {
     "ab": "LSR",
     "xp": "5147.26",
-    "cl": "enc:HlDFvLKJqlQ1Lb9UkXvIeYCtNf72C7ZYeNCm+YIWs6kRsVWWnjl+JwLV2wA=",
+    "cl": "enc:W6d3/Lr1yW8Y9RZTK9Jy55MFem43dQtA1qXPxLBeQnuOpfV3Tc9gCs4Eh5c=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -178,7 +178,7 @@
   {
     "ab": "LSR",
     "xp": "5158.26",
-    "cl": "enc:RMyahJHjnOvT6obSvICMXZIMkdTuMvrPhd0na9QfYMVYRm0nlzpfmY+D/i4=",
+    "cl": "enc:92bqqT5WfJT8P+aQnASty4m0/jE1oIqABCrSt9Ytvirdhart4GM4t6Gx69I=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -188,7 +188,7 @@
   },
   {
     "xp": "7294.25",
-    "cl": "enc:igw0fVF+sffgJ72++3Xv2brhQ9mrCOztB9OrZfy+HPMlFNIcqw==",
+    "cl": "enc:IKyd/5p4x7WyJWKznpxiro1t2b5MazPmYxUGM4rod++VJEjwoA==",
     "op": "ADJUDICACION",
     "td": "SI",
     "ac": "QRO",
@@ -199,7 +199,7 @@
   },
   {
     "xp": "7004.26",
-    "cl": "enc:GhdSNBid2K6g/MMdJT9RKEjOHd6LJKja0ap67CEk2+kvms7rA6tM+gmuD7k=",
+    "cl": "enc:jbdN02qBNL1fjZVpQITD1BpGXGaPRiQo9YmFsoAW09Aijgc99jPMkDY/XnI=",
     "op": "SOCIEDAD",
     "td": "",
     "ac": "",
@@ -211,7 +211,7 @@
   {
     "ab": "LSR",
     "xp": "5163.26",
-    "cl": "enc:Hykbg26B1776lfthbZptiQ9iXBOIr6Mii1Jfx7ecRpAp3eEiDZ3DLzhsx4M=",
+    "cl": "enc:/LCpbwKQJt+QhU4SI27RkL+Pi5lMN8gxcmfWj6LPMz2afdqmFB/FDJ7nX9k=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -221,7 +221,7 @@
   },
   {
     "xp": "7046.26",
-    "cl": "enc:WsjMUb8ZTYX1cfKzpG37y0YjiK2utDoE/QjH7//LNhBpwt8JJ6K6HQDsF8IbCXZYEN3/",
+    "cl": "enc:KEv6smB3k7/AG/C179RFSVvIrsE3qFBuzMiVAdvF28OQ3nqheLtr3KZ6kFsv8juxQzzY",
     "op": "PRESCRIPCION",
     "td": "",
     "ac": "",
@@ -232,7 +232,7 @@
   },
   {
     "xp": "7050.26",
-    "cl": "enc:MNM8TmxfqUQhGE6Wymo9Q3k1cPBMI1C+yY0cxC74Yj2pCwY9+w+wStuIcaA=",
+    "cl": "enc:0WuawBIBkg8lT2GsA1aLY4xEQo6xJsQIlXGYvnz3UQimCQjOhwcrEl914ao=",
     "op": "RADICACION",
     "td": "",
     "ac": "",
@@ -244,7 +244,7 @@
   {
     "ab": "ATM",
     "xp": "6095.26",
-    "cl": "enc:SlC4rWHIUFAxR2JYJUNFbrruf5w/GS68cqzJHwobdNH9jWNf/khOgG7yJL0=",
+    "cl": "enc:jB1baj3EUoGlGyY8LFcVbzSr2WtoSZ6+TgvS5KD8YpdtngYkvzAO0fuYqGg=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "EL MARQUÃÂÃÂS",
@@ -254,7 +254,7 @@
   },
   {
     "xp": "7057.26",
-    "cl": "enc:G/xsHJYrEIBzlXYHygFkWVaaFTKyDwShYcyPib8QYbJ1igeklYth8w8KlGAdeD5HznxnIdUrpiiJ",
+    "cl": "enc:eEvYhfdt2RraFSxUl7uxDan7B7kjsqG4S8y0ce8YjLV8VFPaPCJbbHbc7TYlAOJWqsJR/UVW/0BI",
     "op": "CANCELACION",
     "td": "",
     "ac": "",
@@ -265,7 +265,7 @@
   },
   {
     "xp": "7058.26",
-    "cl": "enc:N65ueOtaCvNFYGifOeL1od4NrpR8jHCUQiJrtz4pFe53h+fAa5XqOThPe0YZvy5urBheYw==",
+    "cl": "enc:PJeAxlllLDqDAzELeyNS6O7zr2bDbpYs43axLz5Zi6He6KUOXyGJZPZfDILv4QwfaEVmpw==",
     "op": "CANCELACION",
     "td": "",
     "ac": "",
@@ -276,7 +276,7 @@
   },
   {
     "xp": "7064.26",
-    "cl": "enc:DW0T+pENB7OdV7uRuC/5c+iW0v9AUoF2tSwTZuAAYEeSURqqnh9YC0GaPNr21L6NEAQ=",
+    "cl": "enc:n6yxMYYhlLuqNVQ5ufTnEmGo0tIZen72yR6t4of98y0WrX/Q41dg+JLVZDCrRkvZ3aA=",
     "op": "APLICACION DE BIENES",
     "td": "SI",
     "ac": "QRO",
@@ -288,7 +288,7 @@
   {
     "ab": "ATM",
     "xp": "6113.26",
-    "cl": "enc:0vmeweej6tVV9ZSnnWF+v/fC6jU1zoidzfm40e+UbXJk2ZEw/gnYjVXLoNA=",
+    "cl": "enc:VqRkLAbu/5XBwm/1/T/BbpPAOoDQkSLMfjj0kh/pyoiHzwr8w5hh0r0uybM=",
     "op": "TESTAMENTO",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -299,7 +299,7 @@
   {
     "ab": "ATM",
     "xp": "6117.26",
-    "cl": "enc:lEZeZPzfPndnk0u2tGLCLQNjioHa1HGYNXIxvn9IVG+ogxU63O4HIjRwdT8=",
+    "cl": "enc:BzcRtdObt1eJoHw6+JsOrZS8i+RjuBHC2OTXBq7M3EqQJIPiOfgq72K7Npg=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -310,7 +310,7 @@
   {
     "ab": "ATM",
     "xp": "6143.26",
-    "cl": "enc:XPJs8skZomoiq0dUH1Gz0lafoCs+6A4gf/Bd7ppVvdUXfmacraMp9m5pTvA=",
+    "cl": "enc:iq+ErOadvpchGt9lViH/GBRHNDgE+3HN+Bglz1zAeEf8MzCN5msR5WIlAKA=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -321,7 +321,7 @@
   {
     "ab": "ATM",
     "xp": "6151.26",
-    "cl": "enc:yRVpwk0fJ9Q9T5xvkbBctRegRbmXl2pBQLNeFPPmfZnkceWw94ULh3dN6Ss=",
+    "cl": "enc:j6aD1zP/XVL4BQA8fH7x9zapXgomzsujQxIhf9fH5SABIIYLhGDuWbgF+98=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "EL MARQUÃÂÃÂS",
@@ -332,7 +332,7 @@
   {
     "ab": "ATM",
     "xp": "6160.26",
-    "cl": "enc:iaLa/SIueScJJpBZ/q62WRWeAc6T3R1FZ+vKCt4DNSBdKFYwIFPtRmErLvk=",
+    "cl": "enc:+zOWJ6BFJ9BH+LAwd5deRDK+TxGuGajKtRKRYvp65qp1yjgc5pZQisG1pL0=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -342,7 +342,7 @@
   },
   {
     "xp": "7070.26",
-    "cl": "enc:qK/Sg9y2kAacA2lQniJdiWMtiCU3hv8Wb0unMQ9bogsCGxc8Eq4QkWRpRyQSjSUZ3ajywc5AQCSL",
+    "cl": "enc:0hhLslf4EAXxRIw4GxDRUsFzHuLTD15wHHcWSKacD64GeuHM4t9OuhCv7nYkdRybbMZrz1NZPhWk",
     "op": "SOCIEDAD",
     "td": "",
     "ac": "",
@@ -354,7 +354,7 @@
   {
     "ab": "ATM",
     "xp": "6186.26",
-    "cl": "enc:cxnTsZSB1s9+HqLZi9aKrWQ3LHJ6fDuizV/DrPjUs2hyxyqQUi40U9R95/c=",
+    "cl": "enc:smQtxI/kgtWxxDLmqtKV7e+Oex8gEplUnoBkQBzgthYc+JigCbeSmZf9Kqk=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -365,7 +365,7 @@
   {
     "ab": "ATM",
     "xp": "6187.26",
-    "cl": "enc:W39IErKl5Y3+a9dH8c9HVrG3Bx7dQdb3E1ThuTekp64fF/ToNnJtu/wEd7Y=",
+    "cl": "enc:p9wiK57AIJtAN441vz33aQjQgOHTMzCRBk17Y+WTCcmu8Nn6YMK8Xzl1qEY=",
     "op": "TESTAMENTO",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -376,7 +376,7 @@
   {
     "ab": "ATM",
     "xp": "6188.26",
-    "cl": "enc:9zLn3r+uc48k65Jr5GBJ74LXR6VMF5E8oFqaUoii8Km0kYAojppCuN00ZZM=",
+    "cl": "enc:Sqi+XWhnaLq/tJjk+jNJfakbpYm6PzSf8BDtbNZ8HvtVyS+Pzp/ASkmDrgc=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -387,7 +387,7 @@
   {
     "ab": "ATM",
     "xp": "6197.26",
-    "cl": "enc:ZDKpnV/oXAfbUEUlRYTROYjEDByQ7dbL52GzRsPfolYUY78so6AQzjhLcBw=",
+    "cl": "enc:0r5udikpG4TUFJ2GTJ1V2vTXZZO6NBa654mfzunkzltyWhBXTvtnyTCAlyQ=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -398,7 +398,7 @@
   {
     "ab": "ATM",
     "xp": "6207.26",
-    "cl": "enc:/jNJwpiilpaptAzalKNCU6nSlmxIpIOW90/2og9kOZ0872rR+JGOKuWQPsY=",
+    "cl": "enc:4zlyyXZzrKpxaaxDOFtY93uFoZWWjP9Cuy7jARAszCEVkEXEihFgwHQbrRw=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -409,7 +409,7 @@
   {
     "ab": "ATM",
     "xp": "6208.26",
-    "cl": "enc:2mQSIzgAdfYRnGZ0auql8K5NOXRbidvw7Y/BlB9IcHAvl7N8rbCJbcQQ+RY=",
+    "cl": "enc:kh/ZAuHKPYYG72KXb0OpZIVPAXyvWqvTlvUS801Q3wdyu4SOHYH/USBYQ7Q=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -420,7 +420,7 @@
   {
     "ab": "ATM",
     "xp": "6212.26",
-    "cl": "enc:bySvu3159gcCY4xlomR4AgmVaxHPJtMJw83w6tt3JN9ik4wFHsk+aFBSIdk=",
+    "cl": "enc:LuG4fC1npxab5a3WWmrFKudjSlggea9oTqjDnmNbMrMAmcSGzF/6TfdZhlE=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -431,7 +431,7 @@
   {
     "ab": "ATM",
     "xp": "6215.26",
-    "cl": "enc:2G7q0xHbkpSsBee+qLyK0z4tuXp1MJA3F3bENGMKR4E2t5ZtNycH3diahZA=",
+    "cl": "enc:ZynNjLHTJ+5CnhsMEEuDp5sr30dD/mDCvJUWZWECith1yMgSLyo20rNN8HY=",
     "op": "TESTAMENTO",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -441,7 +441,7 @@
   },
   {
     "xp": "7076.26",
-    "cl": "enc:P6lGPGgPyp7/OYEoXqkOKsPOFthHp+/+rOF3KsiREb6hDR4D1AHpuhaqjJeVInLCY843",
+    "cl": "enc:R7E7XaanIxJ0uT6gyzjSuBB9gz9Z8sa6oTQZjS+51lAutjx8Wh7VtosVeR0ACoFdA2CB",
     "op": "PROTOCOLIZACION",
     "td": "",
     "ac": "",
@@ -452,7 +452,7 @@
   },
   {
     "xp": "7077.26",
-    "cl": "enc:h8LBDKyCtWVoRls2hEmOrw6AjY24iAC4ymAVbdI2giuAcKXjl6u7Fxz2Xjo=",
+    "cl": "enc:7jsYc5FyTvF63dxa1OrH2H4Zk0tyxep19yM+AX1N7io6eTrHVdb88gewg5U=",
     "op": "PROTOCOLIZACION",
     "td": "",
     "ac": "",
@@ -464,7 +464,7 @@
   },
   {
     "xp": "7078.26",
-    "cl": "enc:ogk3lbmMN3l6eYiY8EQkctQrvPC5ptg8c8TNbSW2FDiGU9A7GBqPJpMoXSusmQs=",
+    "cl": "enc:aOvSW9KuHjrArJC9AILtU+FbUy1imfEVD4LBLUXJbfpiMOVgEI9xs2GHg3jekTM=",
     "op": "COMPRAVENTA-CREDITO",
     "td": "SI",
     "ac": "COR",
@@ -476,7 +476,7 @@
   {
     "ab": "GGR",
     "xp": "7005.26",
-    "cl": "enc:m3PT00Do4/KVEGLhP303lQXDnfvk2LyFU3VH0H45TpE3b5gs2Z7DQiA1RMk=",
+    "cl": "enc:TYybISVKybiyCgfyg+6E6tmkTSUBDihPcUrG196lGYsnTlNSFBqwZaJip9g=",
     "op": "TESTAMENTO",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -487,7 +487,7 @@
   {
     "ab": "GGR",
     "xp": "7006.26",
-    "cl": "enc:H2MUbz+a9j0cHOvcST91k6lMO6rO8TYhz/RdlQ7GBrJJ42Lw/kT6IFt3RDs=",
+    "cl": "enc:triihsFNivvrqKvO0qIo27EBmwE5VOlRA/D70pbisDsZ7T+duWqYqdkb53M=",
     "op": "TESTAMENTO",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -498,7 +498,7 @@
   {
     "ab": "KST",
     "xp": "10247.26",
-    "cl": "enc:aD8ym0+etQyhaTg9EcKWTT/dSuio6FkCgpMvOrvwRmuMnVX6KSwGZImsTQ==",
+    "cl": "enc:qTJdTf8XixLg4Nxt/rwR7eU/BaUGQo5TuUyRFzLj+t8ALMjUR4X16NIAtA==",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -509,7 +509,7 @@
   {
     "ab": "MSR",
     "xp": "11012.26",
-    "cl": "enc:zzgb29nb3zyXQT7Ns2i1R2Y9QFLyBlqNnrIIjppWJVqARe1dJqCZtjWd05A=",
+    "cl": "enc:CGcL6vBnb2j53oTfVGuN+FISTdGhFdLrzWfW3ewEn1gmEN8o+FWMcWe6H+c=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -519,7 +519,7 @@
   },
   {
     "xp": "7079.26",
-    "cl": "enc:0otrxpTYIZ939cqfT3dkjTnZgCE4RDCLP1OjGc+Vh6IvlBhR8+XI6SgEQaHCnTkdavjgtWc=",
+    "cl": "enc:6dZDJh2uCv5chObYzQEf7nc90E65o3Lw7fGgg4q3OBCbGzPPqYETda+t8W2g2VD/SutVy74=",
     "op": "TESTAMENTO",
     "td": "",
     "ac": "",
@@ -530,7 +530,7 @@
   },
   {
     "xp": "7081.26",
-    "cl": "enc:wNGFwwYBTrHE13Y5ESktSMysk3qtxPUVYli59Orkr69i7IlAwNGAvgPZneQeD3mzWsX+GOdnw3A5T0yHV/FAy+lipQ==",
+    "cl": "enc:n4n0fFASOVs4jgY428+qHbGKmv9RzAonO3ZFMyED8roRRhxqWg8UeLDAmvON1yMKK7BXEnMopDpqBEHFAeN29DVwgg==",
     "op": "COMPRAVENTA-CREDITO",
     "td": "SI",
     "ac": "COR",
@@ -541,7 +541,7 @@
   },
   {
     "xp": "7082.26",
-    "cl": "enc:+TqhzCfLJ6fq0oCMadGmugV4lTDVJCYXhgg6YvGGXDCuDTslVhQ=",
+    "cl": "enc:PYHQ0TVV7RanByh6czxJpt+kYFdTZ20W3ZwIkmB3qGveHo8Xx/4=",
     "op": "CONVENIO MOD",
     "td": "",
     "ac": "MAZATLAN",
@@ -552,7 +552,7 @@
   },
   {
     "xp": "11075.26",
-    "cl": "enc:+WGvmASG5O1lTlqwQrIUzF5nGjba7iHa8fFSJ8t7UbYMxilXf+pQd+vaC/U=",
+    "cl": "enc:k5CXpSTQiXeelm8gGsx50ZC1FudIt+X2YnNAjM24Ti+9J3zh3Bzsn8QN490=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -563,7 +563,7 @@
   },
   {
     "xp": "11105.26",
-    "cl": "enc:eV6QyewPhzrgqxCNtHBMbCEqzIRE7GSHtDhK5VDv+QkeRTVUbH4pD+w19i0=",
+    "cl": "enc:eiqajEDCFK6nhMWLef5XPRtIEz9BM6Vtr4PWCrLlnNqr1oSh43p/u4SmHRE=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -574,7 +574,7 @@
   },
   {
     "xp": "11109.26",
-    "cl": "enc:n0N5HwEPTr2Xmtkmbjc1j+vAz+uGFVyC0tCXdin8wLVA0VY+PfS/bWcFyI4=",
+    "cl": "enc:9wwEjG8+GFdGfw65S0+CGzPnYOxHf9JE4oy7g8hFfJSmARaKRWydwyY5Y1g=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -585,7 +585,7 @@
   },
   {
     "xp": "11163.26",
-    "cl": "enc:A1SRzQ9nCaCRSy7RyBvsktd2QbBe1rnUKDl7xUDKev7rNJZqhmXI+za7B5g=",
+    "cl": "enc:7h2Qu9kPc9BsPvbiwsJjWtROo2+OKHW0jtKzJo2gs42FWCwg5Zc5ApiLKJ0=",
     "op": "TESTAMENTO",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -596,7 +596,7 @@
   },
   {
     "xp": "11219.26",
-    "cl": "enc:kLpzYYhBSL2OuZrBVgORjqX3jLKCGSOoLxWKjYDR8o25HyoUEKX1N5nINVc=",
+    "cl": "enc:Btb+wTNDYtnifUouf2k2LFIs025ZJJ0H/28Aw7fLxIkgEoDjtahcF7cnMe0=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -607,7 +607,7 @@
   },
   {
     "xp": "11290.26",
-    "cl": "enc:2PbHShlp3XzkpxT30ex3XLNQgN3uGJaMboMs9FUs2WsZLlv4Zgp3A8N7IBc=",
+    "cl": "enc:PotsOWjK19Ri+I6PqsjgMUxpLCyBuRutOyDJdlN4/TJnv21NlVCmMACvqBk=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "EL MARQUÃÂÃÂS",
@@ -618,7 +618,7 @@
   },
   {
     "xp": "11327.26",
-    "cl": "enc:wnyqt3FCpX0/Wl1le4r9u5r74di6TWB011YrYT371nXK61juRkAbqveonSQ=",
+    "cl": "enc:MTJm9hNErYzNhKw8Md7JN5jH+jXc3sxGZ8KSe6NzfdW4WNtAotY66Yhx5NM=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -629,7 +629,7 @@
   },
   {
     "xp": "11339.26",
-    "cl": "enc:S/aqCcQ6wBeTKjJSUkMZK4LcRgZzfg+kYuxwtaIq5AiiCnPw6vYh/dt/yxY=",
+    "cl": "enc:xsyn+55Tr4eFI6ARHdWOoaOd9Il2c/Ujwx5GQrSj2vhRjtrsc8ybXOTSiss=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -640,7 +640,7 @@
   },
   {
     "xp": "11365.26",
-    "cl": "enc:SI1uqUjnV7gnuUWNGZhKLgiOeU5agTgaM5WOhIIGbk4gjLvS4WkE18qMZ64=",
+    "cl": "enc:6yVSB/0gvGi3Cc0f3FU5tydCr2m2kO76lIPiVNFYDEWwgAYwWilZwmephAQ=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -651,7 +651,7 @@
   },
   {
     "xp": "11386.26",
-    "cl": "enc:2BTC4o5uMWFz8oKYnQdgaN3QXZ6DxGKRQI1qN3FXm+jAtUGh0eJuyzNQYFQ=",
+    "cl": "enc:TcPmGtBDuQwCRDdJzI8ZRKz2QE65jR0bMmoueMIq9kWLNqKY79w7CX3PsyA=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -662,7 +662,7 @@
   },
   {
     "xp": "11388.26",
-    "cl": "enc:kxoO3B+nUEiuBPdCMa/StqHaVhdgxztSm3SlqfV2D3PuVVsLNA7gJ2ATPiI=",
+    "cl": "enc:v04iu54UP8sA9WwCTIIFu949XV4eu1zTPNTbJbqrIFmEffM13UWpWok7ZnU=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -673,7 +673,7 @@
   },
   {
     "xp": "11411.26",
-    "cl": "enc:BI94o2WbWRT5VlLRgABoWzAIWOnbqnUJKgyLsq9CJ1fDsz6zoVXEzd8KtLo=",
+    "cl": "enc:C7JqExU9xFPu38A7xvX1zen2DCaWagoBJ9lVAmczjNPaKyx+j+Z/nN28ycs=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "EL MARQUÃÂÃÂS",
@@ -684,7 +684,7 @@
   },
   {
     "xp": "11412.26",
-    "cl": "enc:RWA9gDdzvS6WMDZC4uPzGT87vDDyO/bl6UBZBqLOqT75BbLA41uTCg+75VI=",
+    "cl": "enc:4n5lXsM8Ies0Pv62A0jFL53fSsWS70cOwSe43gqdByjWobBRGQERkFsrBFw=",
     "op": "SOCIEDAD",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -695,7 +695,7 @@
   },
   {
     "xp": "11433.26",
-    "cl": "enc:rbPTrdq3/y7s8xMEc5h02sOdh8vjx7Q1NDrQGBOQY06jfhDPWnnQ+wnHj+s=",
+    "cl": "enc:La2mSmEhlMtJV5J9h0PjhWN7VDURaggMY4rkLxfgTqO9UPS8bV5XHIuNWvw=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -706,7 +706,7 @@
   },
   {
     "xp": "11453.26",
-    "cl": "enc:8AayHh8r05bqBymO8j3YmE+WUKPjhiL3yyZnxCwR7QSS0fXyQr9qu732fOM=",
+    "cl": "enc:oOYTgxICE/BeaYW0MwRSjO8fMoSnLIHBwIwFrQrpEigtmoIRzMk88OugUpI=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "EL MARQUÃÂÃÂS",
@@ -717,7 +717,7 @@
   },
   {
     "xp": "11454.26",
-    "cl": "enc:Zqh+oNZ0AvounI1bOaLWKTDh+GtSa8M5BM/zb00lqFQ44vt5GnFdd173CN8=",
+    "cl": "enc:axM4tw8eZFBhGqNqIJHzkJQo3sPhcKzMGfO4F29X/cVZ0aB6DoFJRZqef70=",
     "op": "SOCIEDAD",
     "td": "",
     "ac": "",
@@ -728,7 +728,7 @@
   },
   {
     "xp": "11460.26",
-    "cl": "enc:/0Wo74qmfuZzuI8T8nwIkDM4u/ZQiqNW3lHUYldeFUKow9wKsOi5YKEZLh0=",
+    "cl": "enc:9vJqtnLMG+qYVxFunJfPmVwMpqannrI5LKhjwOBL45qmlmgtTrWpzk9AmOw=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -739,7 +739,7 @@
   },
   {
     "xp": "11488.26",
-    "cl": "enc:TunM9MDCXhqUTDLCQ0Diz5L2ExossPSUdhQ2gEtEDcV7RVQ3b+0xP6tKFs4=",
+    "cl": "enc:550IsPAkE4vuNNAkl0bTi1gNsxgnBUOrNJF/KjRuC+JaU4WfQD+1v9D8kX4=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -750,7 +750,7 @@
   },
   {
     "xp": "11490.26",
-    "cl": "enc:QTnkmjXuzba/rwc2bEZ4cB0BWJJSLDbETxFBguoeytlU8drMydBtjSszX0I=",
+    "cl": "enc:O96v0Wt2bp4iqTB0btURNNcMhEjExcHoLzxVjYG9t5y9adJ7v06lnZrxDEI=",
     "op": "SOCIEDAD",
     "td": "",
     "ac": "",
@@ -761,7 +761,7 @@
   },
   {
     "xp": "11517.26",
-    "cl": "enc:QCm+Hd60S/xRt+lEQ8QzBCtGBWmNellwr/b+B57AZUmW+/Mdqtj4UPy2oQ4=",
+    "cl": "enc:9crWul+c1ou4ShHQX1mI0hf+8INAOwXHDdln3DdOX/VeGE8PthZdlPJXV/Q=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -772,7 +772,7 @@
   },
   {
     "xp": "13006.26",
-    "cl": "enc:ZWGciN6r/sS3uF8c1Sbm4z7mUIT55m9xpkDGHcYhJq95uRNXHRciNbHJ3Fk=",
+    "cl": "enc:DTaiM12V8aZCcNjCAUIZphk7Y0/o+ohDKc0scRtoimu+4PXVUpYgFSdrbqs=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "EL MARQUÃÂÃÂS",
@@ -783,7 +783,7 @@
   },
   {
     "xp": "13028.26",
-    "cl": "enc:6Bez8jiTQWRtGnqVzrhmoBGXiEfMWdrX6mKSrw/fGnTrZZMk7Ho6pYA0RXw=",
+    "cl": "enc:vDYRmk5ZhqvFoiV7mchR0Zb5hc6H3YObxJfybui5na+S7peDA/5GLfB72lw=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -794,7 +794,7 @@
   },
   {
     "xp": "13033.26",
-    "cl": "enc:bhFbQbEXvjersiUCqkppmmZ2vUtysEWlvvYdaV98Y8vKSA7oK6xCJWqNzJA=",
+    "cl": "enc:yAl2tW6MlKH6NO99L3zkkR3/O6T0xsr1U9hYBvq5PYfm5FFO3lytKpOAvf8=",
     "op": "SOCIEDAD",
     "td": "",
     "ac": "",
@@ -805,7 +805,7 @@
   },
   {
     "xp": "13040.26",
-    "cl": "enc:bzqsWoZLeGBM0rn7yj7Rpi/p08+gZGlrej88Cn0fYy8DpAa68aceTl8odTQ=",
+    "cl": "enc:pyqIeyikqpRuRxR7cbs/AFr3ARVfJtomAU89YnI94j3SsCco3ObjXT3OWzs=",
     "op": "TESTAMENTO",
     "td": "",
     "ac": "",
@@ -816,7 +816,7 @@
   },
   {
     "xp": "13052.26",
-    "cl": "enc:xNPUV9/RBFjGYVd/iMcJkOWsCUu5gHNO0pobFUxhWdLQOlmHiLB7RuCYvk4=",
+    "cl": "enc:MPCPheBh7UPqfTP6MSsfaia4cMrELDJ4yeMol9OIhSLmtztbBxEy5rSQt9Y=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -827,7 +827,7 @@
   },
   {
     "xp": "13058.26",
-    "cl": "enc:1c4jmpvT3G3BEYlOqsMfV2QGM9jClZakuNd1pUw5rDZYNy6JtrwCyv7MHzk=",
+    "cl": "enc:LRErGdBJXK27ZhXK1itSHlX6xxTZ8HQfipTNb0GiZo0RRvg2ZklO+PfH2Bo=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -838,7 +838,7 @@
   },
   {
     "xp": "13086.26",
-    "cl": "enc:N2s60RpUdwi3S/n31bFHOqLZYIDThB+nDRNhFFwbuFsGuSa4yFbcKyb2mC0=",
+    "cl": "enc:ii7WraXilt1AvLPKQ92e3ELiREeehyyi5hQV1ahnmvkZp3pIvwnNbYW3FrU=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "EL MARQUÃÂÃÂS",
@@ -849,7 +849,7 @@
   },
   {
     "xp": "13091.26",
-    "cl": "enc:niXXufhdgeGm+sTWjdR0obO7vU9gwkphwaVVBn+vW6cTcnff1B6b5++hA70=",
+    "cl": "enc:DuxVSf9rGRVIORjQP4vr52Y/TAp/h+j4sBlJOHPpajryn536Hv0q0w26EKc=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -860,7 +860,7 @@
   },
   {
     "xp": "13102.26",
-    "cl": "enc:7Chlg+2FtB8rhqNvGFhSpDiRBMVI+3o+AltEwFRhE0eGOzgN/JT09tcRJKY=",
+    "cl": "enc:HoARU84uHriGZz5hl/85K56BrFWnVESx+E6s4+TKv391iSQqg9csedSV4bQ=",
     "op": "SOCIEDAD",
     "td": "",
     "ac": "",
@@ -871,7 +871,7 @@
   },
   {
     "xp": "13121.26",
-    "cl": "enc:e1jQ4aKcSUaWQeiXDImvE5wj1mgjecPOZdgCttDEkuNG7WPczkP2duS5Kyw=",
+    "cl": "enc:5m6KsDhGydUgVhRLfn9QILpW6BxTrXQ5TvKLut7DBGaQYVrtyPDJ5Zanamo=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -882,7 +882,7 @@
   },
   {
     "xp": "13123.26",
-    "cl": "enc:Jp77YcU/gEf3vT74JMVI3/R/wHdxWzWV+K8KrhbvhdFpn/KVPK2jZ5H9v7s=",
+    "cl": "enc:1gPONgE7fuSNb+5Zr93m1CReHm/ckxPYC4j4Wt7quhUrMDbD93AjjoEIPgM=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -893,7 +893,7 @@
   },
   {
     "xp": "13127.26",
-    "cl": "enc:DDQe3MU1Bc8FrxLUIsXENpdN7EuBbKGVsjRh1wqRzKc781LgMzXtDqJ8Ftg=",
+    "cl": "enc:c5I0jpIkHn2impn2mJMuvLiEAsswFFJdgp2853Nnpk+jrlJD+Ww8tYbu/gA=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -904,7 +904,7 @@
   },
   {
     "xp": "30022.26",
-    "cl": "enc:GGC+PCuUNvLfgXLDCq9rc57Fr0UoxuWARMGZSVHtYUlRQcZ0x9GCObdkAlA=",
+    "cl": "enc:uvJW6WRGsyhJ5ql6CcK0mBcZhMm8oykV/0Eiv81yoivvp/sv5UxZO5zNw5U=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "CORREGIDORA",
@@ -915,7 +915,7 @@
   },
   {
     "xp": "30192.26",
-    "cl": "enc:K0B7HXnBMdSQCTWg1aQuq9CWCyLHoNrS8YzUSyhVRmof04HMwP6tEYSvmz8=",
+    "cl": "enc:efwSUkMAEQ4jFbWw66a0oNhlmcy1aWQr7UvZjU/Dvw/HggcdVwanNok6Es4=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "HUIMILPAN",
@@ -926,7 +926,7 @@
   },
   {
     "xp": "30235.26",
-    "cl": "enc:PHokcAJnc3V361aeuxFY+CLAVND373hVbhtYkUbq7moZZT1G48WQ4ZcENVg=",
+    "cl": "enc:n42svreB8ed4QWJbDF1bKv6/NZawEqVZdHD3L5bjmBDxKBilplI+k/sdsD0=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "EL MARQUÃÂÃÂS",
@@ -937,7 +937,7 @@
   },
   {
     "xp": "30279.26",
-    "cl": "enc:5NOQ71FAbgeiAIvoMM6DwjqL306L4ziPDxTb8FUXaRUPMoq+G+ss1EhHvWc=",
+    "cl": "enc:HqBgInMcS+iU+LLmT0tOPARSz98Xz+3SyBbVUeJ4bBtZTE5RHshovfiTvGI=",
     "op": "SOCIEDAD",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -948,7 +948,7 @@
   },
   {
     "xp": "30285.26",
-    "cl": "enc:6FSfuZGovI3rzphQYVlOkm4EWH62XqK9VvqhDCcY8xsbZbLTwF2Fi1MJrfk=",
+    "cl": "enc:JKdyVONVSXdxZ/xaMIXad8fft47VE5DJPWFILSotwh3Y9HUdre8ztn2c1EE=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -959,7 +959,7 @@
   },
   {
     "xp": "30299.26",
-    "cl": "enc:myLMIBE7CZ6OHbJRERH5p6vt/eh+QBVzSRWH1iZxYjx8BrU/xxH06Rrk9Ro=",
+    "cl": "enc:pov4IAzwNzNZ1NG8l+yjfz3I+NuKGxNRFHdhyFbZp7KnstEUsa/p3x0hSfo=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -970,7 +970,7 @@
   },
   {
     "xp": "30312.26",
-    "cl": "enc:ehdNEEUyS8D/senN8zwPUrTH7aSLAu34pk1qNekRjteZomTydOsg7YPg9bg=",
+    "cl": "enc:ZG/ftdaOwkqbix0uSWJ1fzyOCOPQDlYaU3X8UB/fiuObw5B5iK7PY6cl1Fo=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "EL MARQUÃÂÃÂS",
@@ -981,7 +981,7 @@
   },
   {
     "xp": "30323.26",
-    "cl": "enc:y5p+NhtSNHehY4uY7yDGkLgEcxTS64syLgdB8qBBqlzMxdNIY8ALbpWX8H8=",
+    "cl": "enc:LlyYGWfuUJm1Htcr8HxpPiYtnF1/5dW0DTjOwsYY40sqVxAwBcCEIYB3nMQ=",
     "op": "SOCIEDAD",
     "td": "",
     "ac": "QUERÃÂÃÂTARO",
@@ -992,7 +992,7 @@
   },
   {
     "xp": "30338.26",
-    "cl": "enc:JC6l3Op6FAi+zuOnQVlb/S/1+kW9Ohno5gB1hdKPD92adSzLCDpSrDQ51w0=",
+    "cl": "enc:hqSnlB9TF+hY1lcF70hqQeY4ttqvuYqm0Dij+NECmaaA1ldE9M+NirBKXyo=",
     "op": "CANCELACION DE HIPOTECA",
     "td": "",
     "ac": "EL MARQUÃÂÃÂS",
