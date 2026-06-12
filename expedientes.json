@@ -226,8 +226,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ADELANTADO",
-    "tr": "LIQUIDACION",
+    "es": "ACTIVAR",
+    "tr": "RESPUESTA-CARTA",
     "ab": "GGR"
   },
   {
@@ -470,7 +470,7 @@
     "ac": "COR",
     "mu": "COFI-SANT",
     "es": "ADELANTADO",
-    "tr": "EXP INFO-CLG",
+    "tr": "EXP INFO",
     "ab": "GGR"
   },
   {
@@ -524,7 +524,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ADELANTADO",
+    "es": "ACTIVAR",
     "tr": "RECUPERAR NOTAS",
     "ab": "GGR"
   },
@@ -546,7 +546,7 @@
     "td": "",
     "ac": "MAZATLAN",
     "mu": "BANREGIO",
-    "es": "ADELANTADO",
+    "es": "ACTIVAR",
     "tr": "GESTIONAR CLG",
     "ab": "GGR"
   },
