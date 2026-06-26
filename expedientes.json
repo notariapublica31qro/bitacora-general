@@ -295,7 +295,8 @@
     "ac": "QRO",
     "mu": "",
     "es": "",
-    "tr": ""
+    "tr": "",
+    "_locked": true
   },
   {
     "ab": "ATM",
@@ -306,7 +307,8 @@
     "ac": "CORREGIDORA",
     "mu": "",
     "es": "",
-    "tr": ""
+    "tr": "DEBEN CARTA Y PAGO, DAR DE BAJA",
+    "_locked": true
   },
   {
     "ab": "ATM",
