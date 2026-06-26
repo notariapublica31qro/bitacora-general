@@ -116,8 +116,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ADELANTADO",
-    "tr": "86660",
+    "es": "DETENIDO",
+    "tr": "RECHAZO 86660",
     "ab": "GGR"
   },
   {
@@ -139,7 +139,7 @@
     "ac": "QRO",
     "mu": "",
     "es": "LISTO PARA FIRMA",
-    "tr": "CNP",
+    "tr": "INSCRIPCION RPP-CNP",
     "ab": "GGR"
   },
   {
@@ -160,8 +160,8 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "VISITA INMUEBLE-DEVOLVER",
+    "es": "CANCELADO",
+    "tr": "DEVOLVER",
     "ab": "GGR"
   },
   {
@@ -193,7 +193,7 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "ADELANTADO",
+    "es": "DETENIDO",
     "tr": "PREDIAL-VOBO JUZGADO",
     "ab": "GGR"
   },
@@ -226,7 +226,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ACTIVAR",
+    "es": "DETENIDO",
     "tr": "RESPUESTA-CARTA",
     "ab": "GGR"
   },
@@ -259,7 +259,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ADELANTADO",
+    "es": "DETENIDO",
     "tr": "CARTA",
     "ab": "GGR"
   },
@@ -270,7 +270,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ADELANTADO",
+    "es": "DETENIDO",
     "tr": "RECURSOS",
     "ab": "GGR"
   },
@@ -347,8 +347,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ADELANTADO",
-    "tr": "DEFINIR",
+    "es": "DETENIDO",
+    "tr": "DOCUMENTOS",
     "ab": "GGR"
   },
   {
@@ -446,7 +446,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ADELANTADO",
+    "es": "DETENIDO",
     "tr": "ACTA",
     "ab": "GGR"
   },
@@ -470,7 +470,7 @@
     "ac": "COR",
     "mu": "COFI-SANT",
     "es": "ADELANTADO",
-    "tr": "EXP INFO",
+    "tr": "AVISO RET-VOBO",
     "ab": "GGR"
   },
   {
@@ -524,8 +524,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ACTIVAR",
-    "tr": "RECUPERAR NOTAS",
+    "es": "LISTO PARA FIRMA",
+    "tr": "VOBO",
     "ab": "GGR"
   },
   {
@@ -536,7 +536,7 @@
     "ac": "COR",
     "mu": "CFR",
     "es": "ADELANTADO",
-    "tr": "CLG - 88740",
+    "tr": "VOBO",
     "ab": "GGR"
   },
   {
@@ -546,8 +546,8 @@
     "td": "",
     "ac": "MAZATLAN",
     "mu": "BANREGIO",
-    "es": "ACTIVAR",
-    "tr": "GESTIONAR CLG",
+    "es": "ADELANTADO",
+    "tr": "GESTIONAR ",
     "ab": "GGR"
   },
   {
@@ -1032,5 +1032,137 @@
     "mu": "",
     "es": "",
     "tr": ""
+  },
+  {
+    "xp": "7083.26",
+    "cl": "EFRAIN GONZALEZ BASALDUA",
+    "op": "RADICACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "INFORME 92083",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7084.26",
+    "cl": "CAMPO CANTABRIA",
+    "op": "APORTACION INMUEBLE",
+    "td": "SI",
+    "ac": "MAR",
+    "mu": "",
+    "es": "ACTIVAR",
+    "tr": "PROYECTO-INE",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7085.26",
+    "cl": "CAMPO CANTABRIA",
+    "op": "AUMENTO DE CAPITAL",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "ACTIVAR",
+    "tr": "PROYECTO-INE",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7044.26",
+    "cl": "ANDRES BECERRIL RAMOS",
+    "op": "APLICACION",
+    "td": "SI",
+    "ac": "QRO",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "PUBLICACIONES 3 JULIO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7086.26",
+    "cl": "AT CAMIONES Y AUTOBUSES",
+    "op": "RATIFICACION",
+    "td": "",
+    "ac": "",
+    "mu": "BAJIO",
+    "es": "LISTO PARA FIRMA",
+    "tr": "VOBO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7087.26",
+    "cl": "AT CAMIONES Y AUTOBUSES",
+    "op": "RATIFICACION",
+    "td": "",
+    "ac": "",
+    "mu": "BAJIO",
+    "es": "LISTO PARA FIRMA",
+    "tr": "VOBO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7088.26",
+    "cl": "INMOBILIARIA JC QUERETARO",
+    "op": "VENTA DE ACCIONES",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "DETENIDO",
+    "tr": "DOCUMENTOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7089.26",
+    "cl": "DE LA MORA BELTRAN CONSTRUCCIONES",
+    "op": "VENTA DE ACCIONES",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "DETENIDO",
+    "tr": "DOCUMENTOS-COMP PAGO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7090.26",
+    "cl": "PATRICIA TERESITA DEL NIÑO JESUS",
+    "op": "COMPRAVENTA CREDITO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "SANTANDER",
+    "es": "ADELANTADO",
+    "tr": "VH",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7091.26",
+    "cl": "OMAR RESENDIZ FLORES",
+    "op": "CV CREDITO CREDITO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "COFI-SANT",
+    "es": "ADELANTADO",
+    "tr": "EXP INFO-CLG 96271-AVALUO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7092.26",
+    "cl": "FERNANDO GONZALEZ MIJARES",
+    "op": "PODER",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7093.26",
+    "cl": "MARIA DE LOURDES KOLOFFON LARA",
+    "op": "TESTIMONIAL",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "TESTIGOS",
+    "ab": "GGR"
   }
 ]
