@@ -1025,7 +1025,7 @@ function updateKPIs(abKey) {
     document.getElementById('kpi-alrt-val').textContent = alertSet.size.toLocaleString();
     document.getElementById('kpi-alrt-pct').innerHTML = '<span>'+alrtPct+'</span><span style="display:inline-block;width:0;overflow:visible;">%</span>';
     { const _b=document.getElementById('kpi-alrt-bar'); if(_b) _b.style.width = alrtPct + '%'; }
-    document.getElementById('kpi-alrt-sub').textContent = '';
+    { var _as=document.getElementById('kpi-alrt-sub'); if(_as) _as.textContent = ''; }
     return;
   }
   const d = DATA.ab[abKey];
@@ -1054,7 +1054,7 @@ function updateKPIs(abKey) {
   document.getElementById('kpi-alrt-val').textContent = alertAb.size.toLocaleString();
   document.getElementById('kpi-alrt-pct').innerHTML = '<span>'+alrtAbPct+'</span><span style="display:inline-block;width:0;overflow:visible;">%</span>';
   { const _b=document.getElementById('kpi-alrt-bar'); if(_b) _b.style.width = alrtAbPct + '%'; }
-  document.getElementById('kpi-alrt-sub').textContent = '';
+  { var _as=document.getElementById('kpi-alrt-sub'); if(_as) _as.textContent = ''; }
 }
 
 function updateSegs(abKey) {
