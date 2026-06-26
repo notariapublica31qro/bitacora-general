@@ -2836,11 +2836,11 @@ function undoExRow(){
 function cleanExByEscrituras(){
   if(!EX_DATA) return false;
   var eset=new Set();
-  (DATA.pe||[]).forEach(function(r){ if(r.e) eset.add(String(r.e)); });
-  (DATA_CO||[]).forEach(function(r){ if(r.e) eset.add(String(r.e)); });
+  (DATA.pe||[]).forEach(function(r){ var x=r&&r.xp!=null?String(r.xp).trim():''; if(x) eset.add(x); });
+  ((typeof DATA_CO!=='undefined'&&DATA_CO)||[]).forEach(function(r){ var x=r&&r.xp!=null?String(r.xp).trim():''; if(x) eset.add(x); });
   var changed=false;
   EX_DATA.forEach(function(r,i){
-    if(r.xp&&eset.has(r.xp)){ EX_DATA[i]={xp:'',cl:'',op:'',td:'',ac:'',mu:'',es:'',tr:''}; changed=true; }
+    var _x=r&&r.xp!=null?String(r.xp).trim():''; if(_x&&eset.has(_x)){ EX_DATA[i]={ab:'',xp:'',cl:'',op:'',td:'',ac:'',mu:'',es:'',tr:''}; changed=true; }
   });
   return changed;
 }
@@ -2868,7 +2868,8 @@ function loadExpedientes(){
     // Sincronizar entradas de todos los abogados
     ghSetStatus('⟳ Sincronizando abogados...','#6c8ef5');
     syncFromAbogados(function(changed){
-      if(changed) saveExpedientesDebounced();
+      var _cleaned=cleanExByEscrituras();
+      if(changed||_cleaned) saveExpedientesDebounced();
       ghSetStatus('✓ Sincronizado','#16a34a');
       renderEx();
     });
