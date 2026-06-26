@@ -278,6 +278,7 @@ function abrevAcreedor(ac){
   const seen=new Set(),out=[];for(const x of abr){if(!seen.has(x)){seen.add(x);out.push(x);}}
   if(out.includes('INFONAVIT')){const r=out.filter(x=>x!=='INFONAVIT');out.length=0;out.push('INFONAVIT',...r);}
   else if(out.includes('FOVISSSTE')){const r=out.filter(x=>x!=='FOVISSSTE');out.length=0;out.push('FOVISSSTE',...r);}
+  {const _bi=out.indexOf('BANJERCITO'),_si=out.indexOf('ISSFAM');if(_bi>-1&&_si>-1&&_si<_bi){out[_si]='BANJERCITO';out[_bi]='ISSFAM';}}
   let o2=out.map(x=>{for(const[ol,nw]of REN)x=x.replace(ol,nw);return x;});
   return o2.join('-');
 }
