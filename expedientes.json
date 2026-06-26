@@ -22,12 +22,12 @@
     "tr": ""
   },
   {
-    "ab": "JCL",
-    "xp": "4291.26",
-    "cl": "DEUDOR (DE CANCELACION): SUSANA PAVON OCHOA,  CANCELANTE: INSTITUTO DEL FONDO NACIONAL DE LA VIVIENDA PARA LOS TRABAJADORES",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "MARQUES",
+    "ac": "",
     "mu": "",
     "es": "",
     "tr": ""
@@ -165,12 +165,12 @@
     "ab": "GGR"
   },
   {
-    "ab": "LSR",
-    "xp": "5147.26",
-    "cl": "CANCELANTE: BANCO SANTANDER MEXICO SOCIEDAD ANONIMA INSTITUCION DE BANCA MULTIPLE GRUPO FINANCIERO SANTANDER MEXICO,  DEUDOR (DE CANCELACION): XAVIER OCAMPO VALDEZ",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "CORREGIDORA",
+    "ac": "",
     "mu": "",
     "es": "",
     "tr": ""
@@ -287,16 +287,15 @@
     "ab": "GGR"
   },
   {
-    "ab": "ATM",
-    "xp": "6113.26",
-    "cl": "OTORGANTE: MOISES ARCOS SANCHEZ",
-    "op": "TESTAMENTO",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "QRO",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "_locked": true
+    "tr": ""
   },
   {
     "ab": "ATM",
@@ -382,46 +381,45 @@
     "_locked": true
   },
   {
-    "ab": "ATM",
-    "xp": "6188.26",
-    "cl": "DEUDOR (DE CANCELACION): MA. EUGENIA ROSALES RICO,  CANCELANTE: BANCO NACIONAL DE MEXICO SA INTEGRANTE DEL GRUPO FINANCIERO BANAMEX",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "QRO",
+    "ac": "",
     "mu": "",
     "es": "",
     "tr": ""
   },
   {
-    "ab": "ATM",
-    "xp": "6197.26",
-    "cl": "CANCELANTE: INSTITUTO DEL FONDO NACIONAL DE LA VIVIENDA PARA LOS TRABAJADORES,  DEUDOR (DE CANCELACION): DANIEL NAVA DIAZ CEBALLOS",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "CORREGIDORA",
-    "mu": "",
-    "es": "",
-    "tr": "EN ESPERA DE VOBO DE INFONAVIT, SE MANDO EL 16 DE JUNIO",
-    "_locked": true
-  },
-  {
-    "ab": "ATM",
-    "xp": "6207.26",
-    "cl": "DEUDOR (DE CANCELACION): MIGUEL MARTIN RIVERA COLORADO,  CANCELANTE: INSTITUTO DEL FONDO NACIONAL DE LA VIVIENDA PARA LOS TRABAJADORES",
-    "op": "CANCELACION DE HIPOTECA",
-    "td": "",
-    "ac": "QRO",
+    "ac": "",
     "mu": "",
     "es": "",
     "tr": ""
   },
   {
-    "ab": "ATM",
-    "xp": "6208.26",
-    "cl": "DEUDOR (DE CANCELACION): JUAN JOSE SOTO NARVAEZ,  CANCELANTE: INSTITUTO DEL FONDO NACIONAL DE LA VIVIENDA PARA LOS TRABAJADORES",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "QRO",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
     "mu": "",
     "es": "",
     "tr": ""
@@ -538,26 +536,26 @@
     "ab": "GGR"
   },
   {
-    "xp": "7081.26",
-    "cl": "MARIA LUISA EDELIA SAN ROMAN TISCAREÑO",
-    "op": "COMPRAVENTA-CREDITO",
-    "td": "SI",
-    "ac": "COR",
-    "mu": "CFR",
-    "es": "ADELANTADO",
-    "tr": "VOBO",
-    "ab": "GGR"
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
-    "xp": "7082.26",
-    "cl": "SERVINDLIZ",
-    "op": "CONVENIO MOD",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "MAZATLAN",
-    "mu": "BANREGIO",
-    "es": "ADELANTADO",
-    "tr": "GESTIONAR ",
-    "ab": "GGR"
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "11075.26",
@@ -747,15 +745,15 @@
     "ab": "MSR"
   },
   {
-    "xp": "11488.26",
-    "cl": "DEUDOR (DE CANCELACION): RIGOBERTO PULIDO AMBRIZ,  CANCELANTE: SCOTIABANK INVERLAT SOCIEDAD ANONIMA INSTITUCION DE BANCA MULTIPLE GRUPO FINANCIERO SCOTIABANK INVERLAT",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "CORREGIDORA",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "MSR"
+    "tr": ""
   },
   {
     "xp": "11490.26",
@@ -868,15 +866,15 @@
     "ab": "EAC"
   },
   {
-    "xp": "13102.26",
-    "cl": "SOLICITANTE: MONICA OLGUIN TAPIA,  SOCIO Y/O ASOCIADO: MONICA OLGUIN TAPIA,  SOCIO Y/O ASOCIADO: ALEJANDRO OLGUIN TAPIA,  SOCIO Y/O ASOCIADO: SUSANA MANZANO SALINAS",
-    "op": "SOCIEDAD",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "EAC"
+    "tr": ""
   },
   {
     "xp": "13121.26",
@@ -956,15 +954,15 @@
     "ab": "GMB"
   },
   {
-    "xp": "30285.26",
-    "cl": "DEUDOR (DE CANCELACION): ARTURO TOVAR CUENCA,  CANCELANTE: INSTITUTO DEL FONDO NACIONAL DE LA VIVIENDA PARA LOS TRABAJADORES",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "QRO",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "GMB"
+    "tr": ""
   },
   {
     "xp": "30299.26",
@@ -978,37 +976,37 @@
     "ab": "GMB"
   },
   {
-    "xp": "30312.26",
-    "cl": "DEUDOR (DE CANCELACION): GONZALO ENRIQUE RAMOS MARTINEZ,  CANCELANTE: INSTITUTO DEL FONDO NACIONAL DE LA VIVIENDA PARA LOS TRABAJADORES",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "MARQUES",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "GMB"
+    "tr": ""
   },
   {
-    "xp": "30323.26",
-    "cl": "SOLICITANTE: JONATHAN HAFID PONCE MONTES,  SOLICITANTE: JOSE CHAVEZ FEREGRINO,  SOLICITANTE: RAMON PONCE MONTES",
-    "op": "SOCIEDAD",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "QRO",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "GMB"
+    "tr": ""
   },
   {
-    "xp": "30338.26",
-    "cl": "DEUDOR (DE CANCELACION): ENRIQUE MURILLO MARTINEZ,  DEUDOR (DE CANCELACION): MARGARITA GUTIERREZ GARCIA,  CANCELANTE: INSTITUTO DEL FONDO NACIONAL DE LA VIVIENDA PARA LOS TRABAJADORES",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "MARQUES",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "GMB"
+    "tr": ""
   },
   {
     "xp": "",
@@ -1153,15 +1151,15 @@
     "ab": "GGR"
   },
   {
-    "xp": "7092.26",
-    "cl": "FERNANDO GONZALEZ MIJARES",
-    "op": "PODER",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7093.26",
@@ -1173,5 +1171,38 @@
     "es": "LISTO PARA FIRMA",
     "tr": "TESTIGOS",
     "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   }
 ]
