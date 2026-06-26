@@ -814,7 +814,7 @@ function abPill(ab){
   return `<span style="display:inline-block;padding:2px 7px;border-radius:7px;font-size:.68rem;font-weight:700;background:${c}22;color:${c};border:1px solid ${c}44">${ab}</span>`;
 }
 
-const REF_DATE = new Date('2026-05-24');
+const REF_DATE = (function(){try{var s=localStorage.getItem('n31_ref_str');if(s){var p=s.split('-');if(p.length===3)return new Date(p[2]+'-'+p[1]+'-'+p[0]);}}catch(e){}return new Date('2026-05-24');})();
 const NOTIFCAT_LIM = 40;
 const peMap = {};
 DATA.pe.forEach(r=>peMap[r.e]=r);
