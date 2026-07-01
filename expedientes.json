@@ -176,12 +176,12 @@
     "tr": ""
   },
   {
-    "ab": "LSR",
-    "xp": "5158.26",
-    "cl": "CANCELANTE: INSTITUTO DEL FONDO NACIONAL DE LA VIVIENDA PARA LOS TRABAJADORES,  DEUDOR (DE CANCELACION): EDGAR LEONARDO TAMEZ ALCARAZ",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "QRO",
+    "ac": "",
     "mu": "",
     "es": "",
     "tr": ""
@@ -209,12 +209,12 @@
     "ab": "GGR"
   },
   {
-    "ab": "LSR",
-    "xp": "5163.26",
-    "cl": "DEUDOR (DE CANCELACION): JULIO CESAR LAZARO TAMEZ ALCARAZ,  CANCELANTE: INSTITUTO DEL FONDO NACIONAL DE LA VIVIENDA PARA LOS TRABAJADORES",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "QRO",
+    "ac": "",
     "mu": "",
     "es": "",
     "tr": ""
@@ -322,28 +322,26 @@
     "_locked": true
   },
   {
-    "ab": "ATM",
-    "xp": "6151.26",
-    "cl": "DEUDOR (DE CANCELACION): KARINA TAPIA GUZMAN,  CANCELANTE: INSTITUTO DEL FONDO NACIONAL DE LA VIVIENDA PARA LOS TRABAJADORES",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "MARQUES",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "CITA EL 25 DE JUNIO, F.C 25 DE JUNIO",
-    "_locked": true
+    "tr": ""
   },
   {
-    "ab": "ATM",
-    "xp": "6160.26",
-    "cl": "DEUDOR (DE CANCELACION): INSTITUTO DEL FONDO NACIONAL DE LA VIVIENDA PARA LOS TRABAJADORES,  CANCELANTE: ARMANDO CEDILLO GUTIERREZ",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "QRO",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "F.C  17 DE JUNIO, SE ENTREGO CARTA EL 15 DE JUNIO",
-    "_locked": true
+    "tr": ""
   },
   {
     "xp": "7070.26",
@@ -472,15 +470,15 @@
     "_locked": true
   },
   {
-    "xp": "7078.26",
-    "cl": "ITZEL REYES HERRERA",
-    "op": "COMPRAVENTA-CREDITO",
-    "td": "SI",
-    "ac": "COR",
-    "mu": "COFI-SANT",
-    "es": "ADELANTADO",
-    "tr": "AVISO RET-VOBO",
-    "ab": "GGR"
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
     "ab": "GGR",
@@ -714,15 +712,15 @@
     "ab": "MSR"
   },
   {
-    "xp": "11453.26",
-    "cl": "DEUDOR (DE CANCELACION): MAURA TAFOYA ENRIQUEZ,  CANCELANTE: INSTITUTO DEL FONDO NACIONAL DE LA VIVIENDA PARA LOS TRABAJADORES",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "MARQUES",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "MSR"
+    "tr": ""
   },
   {
     "xp": "11454.26",
@@ -769,15 +767,15 @@
     "tr": ""
   },
   {
-    "xp": "11517.26",
-    "cl": "DEUDOR (DE CANCELACION): FRANCISCO JAVIER ALTAMIRANO ALCOCER,  CANCELANTE: INSTITUTO DEL FONDO NACIONAL DE LA VIVIENDA PARA LOS TRABAJADORES",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "QRO",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "MSR"
+    "tr": ""
   },
   {
     "xp": "13006.26",
@@ -857,15 +855,15 @@
     "ab": "EAC"
   },
   {
-    "xp": "13091.26",
-    "cl": "CANCELANTE: BANCO SANTANDER MEXICO SOCIEDAD ANONIMA INSTITUCION DE BANCA MULTIPLE GRUPO FINANCIERO SANTANDER MEXICO,  DEUDOR (DE CANCELACION): VICTOR IGNACIO HERNANDEZ RUELAS,  DEUDOR (DE CANCELACION): GABRIELA GARCIA MARTINEZ",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "QRO",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "EAC"
+    "tr": ""
   },
   {
     "ab": "",
@@ -890,15 +888,15 @@
     "ab": "EAC"
   },
   {
-    "xp": "13123.26",
-    "cl": "DEUDOR (DE CANCELACION): ALBERTO MENDOZA RUIZ,  CANCELANTE: INSTITUTO DEL FONDO NACIONAL DE LA VIVIENDA PARA LOS TRABAJADORES",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "QRO",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "EAC"
+    "tr": ""
   },
   {
     "xp": "13127.26",
@@ -1043,15 +1041,15 @@
     "tr": ""
   },
   {
-    "xp": "7083.26",
-    "cl": "EFRAIN GONZALEZ BASALDUA",
-    "op": "RADICACION",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "INFORME 92083",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7084.26",
@@ -1138,7 +1136,7 @@
     "ac": "COR",
     "mu": "SANTANDER",
     "es": "ADELANTADO",
-    "tr": "VH",
+    "tr": "VOBO",
     "ab": "GGR"
   },
   {
@@ -1149,7 +1147,7 @@
     "ac": "COR",
     "mu": "COFI-SANT",
     "es": "ADELANTADO",
-    "tr": "EXP INFO-CLG 96271-AVALUO",
+    "tr": "EXP INFO",
     "ab": "GGR"
   },
   {
@@ -1164,15 +1162,15 @@
     "tr": ""
   },
   {
-    "xp": "7093.26",
-    "cl": "MARIA DE LOURDES KOLOFFON LARA",
-    "op": "TESTIMONIAL",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "TESTIGOS",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "ab": "",
@@ -1745,5 +1743,104 @@
     "mu": "",
     "es": "",
     "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7095.26",
+    "cl": "CENTRO DE INTEGRACION JUVENIL",
+    "op": "PROTOCOLIZACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "ADELANTADO",
+    "tr": "DOCUMENTOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7096.26",
+    "cl": "LEANCRAFT",
+    "op": "SOCIEDAD",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "DOCUMENTOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7097.26",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": "",
+    "ab": "GGR"
   }
 ]
