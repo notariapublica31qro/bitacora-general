@@ -1081,7 +1081,7 @@
     "ac": "QRO",
     "mu": "",
     "es": "LISTO PARA FIRMA",
-    "tr": "PUBLICACIONES 3 JULIO",
+    "tr": "LISTO PARA FIRMA",
     "ab": "GGR"
   },
   {
@@ -1974,5 +1974,82 @@
     "mu": "",
     "es": "",
     "tr": ""
+  },
+  {
+    "xp": "7083.26",
+    "cl": "EFRAIN GONZALEZ BASALDUA",
+    "op": "RADICACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "INFORME 92083",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7078.26",
+    "cl": "ITZEL REYES HERRERA",
+    "op": "COMPRAVENTA-CREDITO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "COFI-SANT",
+    "es": "ADELANTADO",
+    "tr": "REVISION INFO",
+    "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7093.26",
+    "cl": "MARIA DE LOURDES KOLOFFON LARA",
+    "op": "TESTIMONIAL",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "TESTIGOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7098.26",
+    "cl": "MONICA GONZALEZ CASTRO",
+    "op": "REVOCACION DE PODER",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
   }
 ]
