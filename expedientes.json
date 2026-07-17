@@ -242,16 +242,15 @@
     "ab": "GGR"
   },
   {
-    "ab": "ATM",
-    "xp": "6095.26",
-    "cl": "CARLOS PEREZ VILLAVICENCIO",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "MARQUES",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "DEBEN CARTA Y PAGO, DAR DE BAJA",
-    "_locked": true
+    "tr": ""
   },
   {
     "xp": "7057.26",
