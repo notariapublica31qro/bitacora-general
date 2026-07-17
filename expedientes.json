@@ -260,8 +260,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "DETENIDO",
-    "tr": "CARTA",
+    "es": "CANCELADO",
+    "tr": "DOCUMENTOS ACREEDOR",
     "ab": "GGR"
   },
   {
@@ -602,26 +602,26 @@
     "ab": "MSR"
   },
   {
-    "xp": "11219.26",
-    "cl": "JAVIER PEREZ GUTIERREZ",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "QRO",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "MSR"
+    "tr": ""
   },
   {
-    "xp": "11290.26",
-    "cl": "MARIA DEL CONSUELO SANCHEZ BAÑOS",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "MARQUES",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "MSR"
+    "tr": ""
   },
   {
     "xp": "11327.26",
@@ -657,26 +657,26 @@
     "ab": "MSR"
   },
   {
-    "xp": "11386.26",
-    "cl": "MA GUADALUPE GONZALEZ BECERRA",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "CORREGIDORA",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "MSR"
+    "tr": ""
   },
   {
-    "xp": "11388.26",
-    "cl": "GERARDO MARTIN SANCHEZ LUNA",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "CORREGIDORA",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "MSR"
+    "tr": ""
   },
   {
     "xp": "11411.26",
@@ -844,15 +844,15 @@
     "ab": "EAC"
   },
   {
-    "xp": "13086.26",
-    "cl": "EDUARDO GRAJEDA GERMAN",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "MARQUES",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "EAC"
+    "tr": ""
   },
   {
     "ab": "",
@@ -1059,7 +1059,7 @@
     "ac": "MAR",
     "mu": "",
     "es": "ACTIVAR",
-    "tr": "PROYECTO-INE",
+    "tr": "PROYECTO-INE-SUBDIVISION",
     "ab": "GGR"
   },
   {
@@ -1070,7 +1070,7 @@
     "ac": "",
     "mu": "",
     "es": "ACTIVAR",
-    "tr": "PROYECTO-INE",
+    "tr": "PROYECTO-INE-SUBDIVISION",
     "ab": "GGR"
   },
   {
@@ -1085,26 +1085,26 @@
     "ab": "GGR"
   },
   {
-    "xp": "7086.26",
-    "cl": "AT CAMIONES Y AUTOBUSES",
-    "op": "RATIFICACION",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
-    "mu": "BAJIO",
-    "es": "LISTO PARA FIRMA",
-    "tr": "VOBO",
-    "ab": "GGR"
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
-    "xp": "7087.26",
-    "cl": "AT CAMIONES Y AUTOBUSES",
-    "op": "RATIFICACION",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
-    "mu": "BAJIO",
-    "es": "LISTO PARA FIRMA",
-    "tr": "VOBO",
-    "ab": "GGR"
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7088.26",
@@ -1129,15 +1129,15 @@
     "ab": "GGR"
   },
   {
-    "xp": "7090.26",
-    "cl": "PATRICIA TERESITA DEL NIÑO JESUS",
-    "op": "COMPRAVENTA CREDITO",
-    "td": "SI",
-    "ac": "COR",
-    "mu": "SANTANDER",
-    "es": "ADELANTADO",
-    "tr": "VOBO",
-    "ab": "GGR"
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7091.26",
@@ -1976,28 +1976,6 @@
     "tr": ""
   },
   {
-    "xp": "7083.26",
-    "cl": "EFRAIN GONZALEZ BASALDUA",
-    "op": "RADICACION",
-    "td": "",
-    "ac": "",
-    "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "INFORME 92083",
-    "ab": "GGR"
-  },
-  {
-    "xp": "7078.26",
-    "cl": "ITZEL REYES HERRERA",
-    "op": "COMPRAVENTA-CREDITO",
-    "td": "SI",
-    "ac": "COR",
-    "mu": "COFI-SANT",
-    "es": "ADELANTADO",
-    "tr": "REVISION INFO",
-    "ab": "GGR"
-  },
-  {
     "ab": "",
     "xp": "",
     "cl": "",
@@ -2031,15 +2009,37 @@
     "tr": ""
   },
   {
-    "xp": "7093.26",
-    "cl": "MARIA DE LOURDES KOLOFFON LARA",
-    "op": "TESTIMONIAL",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "TESTIGOS",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7098.26",
@@ -2050,6 +2050,171 @@
     "mu": "",
     "es": "LISTO PARA FIRMA",
     "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7099.26",
+    "cl": "MARIA ROSA HERNANDEZ PERALTA",
+    "op": "COMPRAVENTA",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7103.26",
+    "cl": "ICHARBOTS",
+    "op": "VENTA DE ACCIONES",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "DETENIDO",
+    "tr": "DOCUMENTOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7104.26",
+    "cl": "ICHARBOTS",
+    "op": "PROTOCOLIZACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "DETENIDO",
+    "tr": "DOCUMENTOS",
     "ab": "GGR"
   }
 ]
