@@ -644,8 +644,9 @@
     "ac": "QRO",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "MSR"
+    "tr": "ESTA DUPLICADO EXPEDIENTE, HAY DINERO EN ESTE EXPEDIENTE Y SE DEBE VER CON FINANCIERO",
+    "ab": "MSR",
+    "_locked": true
   },
   {
     "xp": "11365.26",
