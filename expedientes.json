@@ -141,7 +141,7 @@
     "ac": "QRO",
     "mu": "",
     "es": "LISTO PARA FIRMA",
-    "tr": "INSCRIPCION RPP-CNP",
+    "tr": "",
     "ab": "GGR"
   },
   {
@@ -196,7 +196,7 @@
     "ac": "QRO",
     "mu": "",
     "es": "DETENIDO",
-    "tr": "PREDIAL-VOBO JUZGADO",
+    "tr": "PREDIAL-CAMBIOS JUZGADO",
     "ab": "GGR"
   },
   {
@@ -2167,15 +2167,15 @@
     "tr": ""
   },
   {
-    "xp": "7099.26",
-    "cl": "MARIA ROSA HERNANDEZ PERALTA",
-    "op": "COMPRAVENTA",
-    "td": "SI",
-    "ac": "COR",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "ab": "",
@@ -2495,5 +2495,181 @@
     "mu": "",
     "es": "",
     "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7107.26",
+    "cl": "PABLO SOLIS MARTINEZ",
+    "op": "COMPRAVENTA",
+    "td": "SI",
+    "ac": "QRO",
+    "mu": "",
+    "es": "DETENIDO",
+    "tr": "DOCUMENTOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7108.26",
+    "cl": "MARIA GUADALUPE ZEPEDA BANDA",
+    "op": "TESTAMENTO",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "DETENIDO",
+    "tr": "DOCUMENTOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7109.26",
+    "cl": "SUSANA FERNANDEZ FERNANDEZ",
+    "op": "RECONOCIMIENTO DE ADEUDO",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "DETENIDO",
+    "tr": "DOCUMENTOS",
+    "ab": "GGR"
   }
 ]
