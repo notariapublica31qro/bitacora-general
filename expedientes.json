@@ -196,7 +196,7 @@
     "ac": "QRO",
     "mu": "",
     "es": "DETENIDO",
-    "tr": "PREDIAL-CAMBIOS JUZGADO",
+    "tr": "PREDIAL-COPIAS RPP-CERTIF GRAV",
     "ab": "GGR"
   },
   {
@@ -229,7 +229,7 @@
     "ac": "",
     "mu": "",
     "es": "DETENIDO",
-    "tr": "RESPUESTA-CARTA",
+    "tr": "NUMERO OFICIAL",
     "ab": "GGR"
   },
   {
@@ -268,12 +268,12 @@
   {
     "xp": "7058.26",
     "cl": "CRISTINA SILVA HERNANDEZ",
-    "op": "CANCELACION",
+    "op": "TRAMITE",
     "td": "",
     "ac": "",
     "mu": "",
     "es": "DETENIDO",
-    "tr": "RECURSOS",
+    "tr": "ACTUALIZAR PAGO RPP",
     "ab": "GGR"
   },
   {
@@ -532,7 +532,7 @@
     "ac": "",
     "mu": "",
     "es": "LISTO PARA FIRMA",
-    "tr": "VOBO",
+    "tr": "LISTO PARA FIRMA",
     "ab": "GGR"
   },
   {
@@ -1073,8 +1073,8 @@
     "td": "SI",
     "ac": "MAR",
     "mu": "",
-    "es": "ACTIVAR",
-    "tr": "PROYECTO-INE-SUBDIVISION",
+    "es": "DETENIDO",
+    "tr": "SUBDIVISION",
     "ab": "GGR"
   },
   {
@@ -1084,8 +1084,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ACTIVAR",
-    "tr": "PROYECTO-INE-SUBDIVISION",
+    "es": "DETENIDO",
+    "tr": "SUBDIVISION",
     "ab": "GGR"
   },
   {
@@ -1128,8 +1128,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "DETENIDO",
-    "tr": "DOCUMENTOS",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
     "ab": "GGR"
   },
   {
@@ -1161,8 +1161,8 @@
     "td": "SI",
     "ac": "COR",
     "mu": "COFI-SANT",
-    "es": "ADELANTADO",
-    "tr": "EXP INFO",
+    "es": "LISTO PARA FIRMA",
+    "tr": "CLG-VOBO-CONST NO ADEUDO MANT Y PREDIAL",
     "ab": "GGR"
   },
   {
@@ -1832,8 +1832,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ADELANTADO",
-    "tr": "DOCUMENTOS",
+    "es": "LISTO PARA FIRMA",
+    "tr": "ACTA-DOCUMENTOS",
     "ab": "GGR"
   },
   {
@@ -2641,13 +2641,13 @@
   },
   {
     "xp": "7107.26",
-    "cl": "PABLO SOLIS MARTINEZ",
-    "op": "COMPRAVENTA",
+    "cl": "RAMON WELSER SOLIS GONZALEZ",
+    "op": "COMPRAVENTA CREDITO",
     "td": "SI",
     "ac": "QRO",
     "mu": "",
     "es": "DETENIDO",
-    "tr": "DOCUMENTOS",
+    "tr": "ASIGNACION CDMX-CLG",
     "ab": "GGR"
   },
   {
@@ -2657,8 +2657,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "DETENIDO",
-    "tr": "DOCUMENTOS",
+    "es": "LISTO PARA FIRMA",
+    "tr": "TESTIMONIAL",
     "ab": "GGR"
   },
   {
@@ -2814,5 +2814,192 @@
     "mu": "",
     "es": "",
     "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7110.26",
+    "cl": "MARIA GUADALUPE ZEPEDA BANDA",
+    "op": "TESTIMONIAL",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "TESTIGOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7111.26",
+    "cl": "PABLO FEDERICO HIGUERA GOMEZ",
+    "op": "COMPRAVENTA CREDITO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "",
+    "es": "AVANZADO",
+    "tr": "CLG-EXP INFO-CONST NO ADEUDO PREDIAL-AVALUOS-ISR",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7112.26",
+    "cl": "SONIA GALVAN ZUÑIGA",
+    "op": "TESTAMENTO",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "INE-NAC",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7113.26",
+    "cl": "J GUADALUPE SERNA SERNA",
+    "op": "CANCELACION",
+    "td": "",
+    "ac": "INDEP",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "VOBO",
+    "ab": "GGR"
   }
 ]
