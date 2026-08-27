@@ -181,14 +181,7 @@ def _digitalizar_aplica(r):
         return rpp_no and rpc_no
 
 def _conciliar_aplica(r):
-    """CONCILIAR: cualquiera de las columnas de entrega interna pendiente.
-    Excepción (ajuste 26-06-2026): si el testimonio ya fue ENTREGADO AL
-    CLIENTE ('ENT. Testimonio Entrega al Cliente' con fecha), la
-    conciliación interna (recepción / financiero) deja de ser exigible,
-    por lo que CONCILIAR NO aplica. Caso 89815.
-    """
-    if has_date(r.get('ENT. Testimonio Entrega al Cliente')):
-        return False
+    """CONCILIAR: cualquiera de las columnas de entrega pendiente."""
     return any(_step_pending(r.get(c)) for c in CONCILIAR_COLS)
 
 def _enviar_aplica(r):
