@@ -3066,15 +3066,15 @@
     "ab": "GGR"
   },
   {
-    "xp": "7127.26",
-    "cl": "RSCC",
-    "op": "SOCIEDAD",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7192.26",
@@ -3095,7 +3095,7 @@
     "ac": "COR",
     "mu": "SANTANDER",
     "es": "LISTO PARA FIRMA",
-    "tr": "AVALUOS-BH-CLG NOV",
+    "tr": "BH-CLG NOV",
     "ab": "GGR"
   },
   {
@@ -3328,6 +3328,127 @@
     "mu": "",
     "es": "",
     "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7200.26",
+    "cl": "ANA GABRIELA CARO LEON",
+    "op": "COMPRAVENTA",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "DOCUMENTOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7201.26",
+    "cl": "ANDREA ILSE PICHARDO SOTO",
+    "op": "COMPRAVENTA",
+    "td": "SI",
+    "ac": "QRO",
+    "mu": "",
+    "es": "REVISAR",
+    "tr": "DOCUMENTOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7202.26",
+    "cl": "CRUZ HUERTA HERNANDEZ",
+    "op": "CANCELACION",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "",
+    "es": "REVISAR",
+    "tr": "DOCUMENTOS",
+    "ab": "GGR"
   },
   {
     "ab": "",
