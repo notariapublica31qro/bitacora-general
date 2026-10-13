@@ -3856,5 +3856,115 @@
     "mu": "",
     "es": "",
     "tr": ""
+  },
+  {
+    "xp": "7185.26",
+    "cl": "ANDREA VIRGINIA GARCIA MENDOZA",
+    "op": "TESTAMENTO",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7127.26",
+    "cl": "RSCC",
+    "op": "SOCIEDAD",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7141.26",
+    "cl": "RICARDO PRESA AMPUDIA",
+    "op": "CANCEL CV",
+    "td": "SI",
+    "ac": "MAR",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7203.26",
+    "cl": "UNIVERSIDAD CENTRAL",
+    "op": "PROTOCOLIZACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "REVISAR",
+    "tr": "DOCUMENTOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7204.26",
+    "cl": "PROMOTORA UNICEQ",
+    "op": "PROTOCOLIZACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "REVISAR",
+    "tr": "DOCUMENTOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7154.26",
+    "cl": "CHRISTIAN IVAN NARANJO CHAVEZ",
+    "op": "CV CREDITO CREDITO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "COFI-SANT",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7152.26",
+    "cl": "ANEL MEJIA PEÑA",
+    "op": "CV CREDITO CREDITO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "COFI-SANT",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7176.26",
+    "cl": "SANDRA MAR JUAREZ",
+    "op": "CV CREDITO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "SANTANDER",
+    "es": "LISTO PARA FIRMA",
+    "tr": "PAGOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7182.26",
+    "cl": "RICARDO GUDIÑO OLVERA",
+    "op": "TESTAMENTO",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7183.26",
+    "cl": "MA. GUADALUPE LEYVA MAYA",
+    "op": "TESTAMENTO",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "EN VOBO",
+    "ab": "GGR"
   }
 ]
