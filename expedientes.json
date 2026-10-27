@@ -134,15 +134,15 @@
     "tr": ""
   },
   {
-    "xp": "7059.24",
-    "cl": "RITA ZOILA PEREZ ZARATE",
-    "op": "APLICACION",
-    "td": "SI",
-    "ac": "QRO",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7344.24",
@@ -190,13 +190,13 @@
   },
   {
     "xp": "7294.25",
-    "cl": "PANOVISTA",
+    "cl": "PANOVISTA-GAUHEZA",
     "op": "ADJUDICACION",
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "DETENIDO",
-    "tr": "PREDIAL-VOBO",
+    "es": "ACTIVAR",
+    "tr": "PREDIAL-PROYECTO",
     "ab": "GGR"
   },
   {
@@ -887,15 +887,15 @@
     "tr": ""
   },
   {
-    "xp": "13121.26",
-    "cl": "GABRIELA TORRES SANCHEZ",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "CORREGIDORA",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "EAC"
+    "tr": ""
   },
   {
     "ab": "",
@@ -1092,8 +1092,8 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
+    "es": "LISTO",
+    "tr": "LISTO",
     "ab": "GGR"
   },
   {
@@ -3000,26 +3000,26 @@
     "tr": ""
   },
   {
-    "xp": "7186.26",
-    "cl": "GRUPO ROMALU",
-    "op": "PROTOCOLIZACION",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
-    "xp": "7187.26",
-    "cl": "CONTROLADORA PATRIMONIAL",
-    "op": "PROTOCOLIZACION",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "CSF",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "ab": "",
@@ -3039,8 +3039,8 @@
     "td": "SI",
     "ac": "COR",
     "mu": "",
-    "es": "REVISAR",
-    "tr": "TD",
+    "es": "ACTIVAR",
+    "tr": "PROYECTO",
     "ab": "GGR"
   },
   {
@@ -3050,20 +3050,20 @@
     "td": "SI",
     "ac": "MAR",
     "mu": "SCOTIABANK",
-    "es": "REVISAR",
-    "tr": "REVISAR",
+    "es": "LISTO",
+    "tr": "EN VOBO",
     "ab": "GGR"
   },
   {
-    "xp": "7189.26",
-    "cl": "MARIA DEL CARMEN SONIA SAN CIP",
-    "op": "TESTAMENTO",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "ab": "",
@@ -3083,8 +3083,8 @@
     "td": "SI",
     "ac": "COR",
     "mu": "SANTANDER",
-    "es": "REVISAR",
-    "tr": "AGUA-SOLID-AGUA 20 OCT-CLG 154869",
+    "es": "DETENIDO",
+    "tr": "NOTAS-FACT 20 OCT",
     "ab": "GGR"
   },
   {
@@ -3099,15 +3099,15 @@
     "ab": "GGR"
   },
   {
-    "xp": "7193.26",
-    "cl": "INDEREQ",
-    "op": "FE DE HECHOS",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "21 DE OCT",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7194.26",
@@ -3116,7 +3116,7 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "REVISAR",
+    "es": "DETENIDO",
     "tr": "RIO DE LA LOZA 32",
     "ab": "GGR"
   },
@@ -3138,7 +3138,7 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "REVISAR",
+    "es": "DETENIDO",
     "tr": "RIO DE LA LOZA 30",
     "ab": "GGR"
   },
@@ -3149,7 +3149,7 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "REVISAR",
+    "es": "DETENIDO",
     "tr": "CUAUHTEMOC 40 42 Y 45 ESQ PRIMAVERA",
     "ab": "GGR"
   },
@@ -3160,20 +3160,20 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "REVISAR",
+    "es": "DETENIDO",
     "tr": "15 DE MAYO 68",
     "ab": "GGR"
   },
   {
-    "xp": "7133.26",
-    "cl": "GUSTAVO LUIS REYES ROMERO",
-    "op": "CV CREDITO CREDITO",
-    "td": "SI",
-    "ac": "COR",
-    "mu": "COFI-SANT",
-    "es": "ADELANTADO",
-    "tr": "EN VOBO-SUSCEPTIBLE",
-    "ab": "GGR"
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7198.26",
@@ -3182,7 +3182,7 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "REVISAR",
+    "es": "DETENIDO",
     "tr": "PRIMAVERA PONIENTE 138",
     "ab": "GGR"
   },
@@ -3193,20 +3193,20 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "REVISAR",
+    "es": "DETENIDO",
     "tr": "ESMERALDA 24",
     "ab": "GGR"
   },
   {
-    "xp": "7137.26",
-    "cl": "ARMINDA MOCTEZUMA DOMINGUEZ",
-    "op": "CV CREDITO CREDITO",
-    "td": "SI",
-    "ac": "COR",
-    "mu": "COFI-SANT",
-    "es": "ADELANTADO",
-    "tr": "CLG 154777",
-    "ab": "GGR"
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7121.26",
@@ -3215,8 +3215,8 @@
     "td": "SI",
     "ac": "SJR",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "PUBLI-NUMERO OF",
+    "es": "LISTO",
+    "tr": "PUBLI-NUMERO OFICIAL",
     "ab": "GGR"
   },
   {
@@ -3226,8 +3226,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "MODIFICAR WORD",
+    "es": "ACTIVAR",
+    "tr": "PROYECTO",
     "ab": "GGR"
   },
   {
@@ -3237,8 +3237,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "MODIFICAR WORD",
+    "es": "ACTIVAR",
+    "tr": "PROYECTO",
     "ab": "GGR"
   },
   {
@@ -3270,8 +3270,8 @@
     "td": "",
     "ac": "QRO",
     "mu": "BAJIO",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
+    "es": "LISTO",
+    "tr": "LISTO",
     "ab": "GGR"
   },
   {
@@ -3424,8 +3424,8 @@
     "td": "SI",
     "ac": "COR",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "DOCUMENTOS",
+    "es": "LISTO",
+    "tr": "VOBO",
     "ab": "GGR"
   },
   {
@@ -3435,19 +3435,19 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "REVISAR",
-    "tr": "DOCUMENTOS",
+    "es": "LISTO",
+    "tr": "AGUA-LUZ",
     "ab": "GGR"
   },
   {
     "xp": "7202.26",
     "cl": "CRUZ HUERTA HERNANDEZ",
     "op": "CANCELACION",
-    "td": "SI",
-    "ac": "COR",
+    "td": "",
+    "ac": "",
     "mu": "",
-    "es": "REVISAR",
-    "tr": "DOCUMENTOS",
+    "es": "LISTO",
+    "tr": "LISTO",
     "ab": "GGR"
   },
   {
@@ -3858,37 +3858,37 @@
     "tr": ""
   },
   {
-    "xp": "7185.26",
-    "cl": "ANDREA VIRGINIA GARCIA MENDOZA",
-    "op": "TESTAMENTO",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
-    "xp": "7127.26",
-    "cl": "RSCC",
-    "op": "SOCIEDAD",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
-    "xp": "7141.26",
-    "cl": "RICARDO PRESA AMPUDIA",
-    "op": "CANCEL CV",
-    "td": "SI",
-    "ac": "MAR",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7203.26",
@@ -3897,8 +3897,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "REVISAR",
-    "tr": "DOCUMENTOS",
+    "es": "LISTO",
+    "tr": "ACTA",
     "ab": "GGR"
   },
   {
@@ -3908,63 +3908,349 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "REVISAR",
-    "tr": "DOCUMENTOS",
+    "es": "LISTO",
+    "tr": "ACTA",
     "ab": "GGR"
   },
   {
-    "xp": "7154.26",
-    "cl": "CHRISTIAN IVAN NARANJO CHAVEZ",
-    "op": "CV CREDITO CREDITO",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7211.26",
+    "cl": "HOTELERA QUERETARO",
+    "op": "PODER",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7206.26",
+    "cl": "CECILIA BRIBIESCA RANGEL",
+    "op": "PODER",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7208.26",
+    "cl": "HUGO OROZCO ORTEGA",
+    "op": "COMPRAVENTA",
     "td": "SI",
-    "ac": "COR",
-    "mu": "COFI-SANT",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
+    "ac": "MAR",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO",
     "ab": "GGR"
   },
   {
-    "xp": "7152.26",
-    "cl": "ANEL MEJIA PEÑA",
-    "op": "CV CREDITO CREDITO",
-    "td": "SI",
-    "ac": "COR",
-    "mu": "COFI-SANT",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
-    "ab": "GGR"
-  },
-  {
-    "xp": "7176.26",
-    "cl": "SANDRA MAR JUAREZ",
+    "xp": "7209.26",
+    "cl": "WENDY GARCIA ELIZARRARAS",
     "op": "CV CREDITO",
     "td": "SI",
     "ac": "COR",
-    "mu": "SANTANDER",
-    "es": "LISTO PARA FIRMA",
-    "tr": "PAGOS",
+    "mu": "CP FLORENCIO",
+    "es": "LISTO",
+    "tr": "LISTO",
     "ab": "GGR"
   },
   {
-    "xp": "7182.26",
-    "cl": "RICARDO GUDIÑO OLVERA",
-    "op": "TESTAMENTO",
-    "td": "",
-    "ac": "",
-    "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
-    "ab": "GGR"
-  },
-  {
-    "xp": "7183.26",
-    "cl": "MA. GUADALUPE LEYVA MAYA",
-    "op": "TESTAMENTO",
-    "td": "",
-    "ac": "",
-    "mu": "",
-    "es": "LISTO PARA FIRMA",
+    "xp": "7210.26",
+    "cl": "PAMELA YARENY ROJAS GONZALEZ",
+    "op": "CV CREDITO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "CP FLORENCIO",
+    "es": "LISTO",
     "tr": "EN VOBO",
     "ab": "GGR"
+  },
+  {
+    "xp": "7212.26",
+    "cl": "HOTELERA QUERETANA",
+    "op": "REVOCACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7222.26",
+    "cl": "JOSE JUAN LARA BARRON",
+    "op": "RADICACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "ACTIVAR",
+    "tr": "ANTICIPO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7223.26",
+    "cl": "ROGELIO LARA BARRON",
+    "op": "COMPRAVENTA",
+    "td": "SI",
+    "ac": "QRO",
+    "mu": "",
+    "es": "ACTIVAR",
+    "tr": "VALOR",
+    "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   }
 ]
