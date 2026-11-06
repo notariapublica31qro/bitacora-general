@@ -195,7 +195,7 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "ACTIVAR",
+    "es": "LISTO",
     "tr": "PREDIAL-PROYECTO",
     "ab": "GGR"
   },
@@ -228,7 +228,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "DETENIDO",
+    "es": "NOVIEMBRE",
     "tr": "PODER",
     "ab": "GGR"
   },
@@ -740,16 +740,15 @@
     "_locked": true
   },
   {
-    "xp": "11460.26",
-    "cl": "LIZZELOTT ANDERSSON LECHUGA",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "QRO",
+    "ac": "",
     "mu": "",
     "es": "",
-    "tr": "TRAERON CARTAS EL 23 DE JUN, SIMULTANEA, E FOVISSSTE, F.C 25 DE JUNIO.",
-    "ab": "MSR",
-    "_locked": true
+    "tr": ""
   },
   {
     "ab": "",
@@ -1092,7 +1091,7 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "LISTO",
+    "es": "NOVIEMBRE",
     "tr": "LISTO",
     "ab": "GGR"
   },
@@ -3039,20 +3038,20 @@
     "td": "SI",
     "ac": "COR",
     "mu": "",
-    "es": "ACTIVAR",
+    "es": "NOVIEMBRE",
     "tr": "PROYECTO",
     "ab": "GGR"
   },
   {
-    "xp": "7169.26",
-    "cl": "SABINO ARCE AGUIRRE",
-    "op": "CANCEL CV",
-    "td": "SI",
-    "ac": "MAR",
-    "mu": "SCOTIABANK",
-    "es": "LISTO",
-    "tr": "EN VOBO",
-    "ab": "GGR"
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
     "ab": "",
@@ -3084,7 +3083,7 @@
     "ac": "COR",
     "mu": "SANTANDER",
     "es": "DETENIDO",
-    "tr": "NOTAS-FACT 20 OCT",
+    "tr": "NOTAS-FACT 20 OCT-EXP INFO",
     "ab": "GGR"
   },
   {
@@ -3117,7 +3116,7 @@
     "ac": "QRO",
     "mu": "",
     "es": "DETENIDO",
-    "tr": "RIO DE LA LOZA 32",
+    "tr": "RIO DE LA LOZA 32-VALOR",
     "ab": "GGR"
   },
   {
@@ -3139,7 +3138,7 @@
     "ac": "QRO",
     "mu": "",
     "es": "DETENIDO",
-    "tr": "RIO DE LA LOZA 30",
+    "tr": "RIO DE LA LOZA 30-VALOR",
     "ab": "GGR"
   },
   {
@@ -3149,7 +3148,7 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "DETENIDO",
+    "es": "NOVIEMBRE",
     "tr": "CUAUHTEMOC 40 42 Y 45 ESQ PRIMAVERA",
     "ab": "GGR"
   },
@@ -3160,7 +3159,7 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "DETENIDO",
+    "es": "NOVIEMBRE",
     "tr": "15 DE MAYO 68",
     "ab": "GGR"
   },
@@ -3183,7 +3182,7 @@
     "ac": "QRO",
     "mu": "",
     "es": "DETENIDO",
-    "tr": "PRIMAVERA PONIENTE 138",
+    "tr": "PRIMAVERA PONIENTE 138-VALOR",
     "ab": "GGR"
   },
   {
@@ -3194,7 +3193,7 @@
     "ac": "QRO",
     "mu": "",
     "es": "DETENIDO",
-    "tr": "ESMERALDA 24",
+    "tr": "ESMERALDA 24-VALOR",
     "ab": "GGR"
   },
   {
@@ -3215,8 +3214,8 @@
     "td": "SI",
     "ac": "SJR",
     "mu": "",
-    "es": "LISTO",
-    "tr": "PUBLI-NUMERO OFICIAL",
+    "es": "NOVIEMBRE",
+    "tr": "23 OCT-NUMERO OFICIAL",
     "ab": "GGR"
   },
   {
@@ -3226,7 +3225,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ACTIVAR",
+    "es": "NOVIEMBRE",
     "tr": "PROYECTO",
     "ab": "GGR"
   },
@@ -3237,7 +3236,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ACTIVAR",
+    "es": "NOVIEMBRE",
     "tr": "PROYECTO",
     "ab": "GGR"
   },
@@ -3270,7 +3269,7 @@
     "td": "",
     "ac": "QRO",
     "mu": "BAJIO",
-    "es": "LISTO",
+    "es": "DETENIDO",
     "tr": "LISTO",
     "ab": "GGR"
   },
@@ -3424,7 +3423,7 @@
     "td": "SI",
     "ac": "COR",
     "mu": "",
-    "es": "LISTO",
+    "es": "NOVIEMBRE",
     "tr": "VOBO",
     "ab": "GGR"
   },
@@ -3435,20 +3434,20 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "LISTO",
+    "es": "NOVIEMBRE",
     "tr": "AGUA-LUZ",
     "ab": "GGR"
   },
   {
-    "xp": "7202.26",
-    "cl": "CRUZ HUERTA HERNANDEZ",
-    "op": "CANCELACION",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "ab": "",
@@ -3897,7 +3896,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO",
+    "es": "DETENIDO",
     "tr": "ACTA",
     "ab": "GGR"
   },
@@ -3908,7 +3907,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO",
+    "es": "DETENIDO",
     "tr": "ACTA",
     "ab": "GGR"
   },
@@ -4052,7 +4051,7 @@
     "ac": "",
     "mu": "",
     "es": "LISTO",
-    "tr": "LISTO",
+    "tr": "FOLIO NOT 27",
     "ab": "GGR"
   },
   {
@@ -4128,20 +4127,20 @@
     "td": "SI",
     "ac": "MAR",
     "mu": "",
-    "es": "LISTO",
+    "es": "NOVIEMBRE",
     "tr": "LISTO",
     "ab": "GGR"
   },
   {
-    "xp": "7209.26",
-    "cl": "WENDY GARCIA ELIZARRARAS",
-    "op": "CV CREDITO",
-    "td": "SI",
-    "ac": "COR",
-    "mu": "CP FLORENCIO",
-    "es": "LISTO",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7210.26",
@@ -4150,7 +4149,7 @@
     "td": "SI",
     "ac": "COR",
     "mu": "CP FLORENCIO",
-    "es": "LISTO",
+    "es": "NOVIEMBRE",
     "tr": "LISTO",
     "ab": "GGR"
   },
@@ -4162,7 +4161,7 @@
     "ac": "",
     "mu": "",
     "es": "LISTO",
-    "tr": "LISTO",
+    "tr": "FOLIO NOT 27",
     "ab": "GGR"
   },
   {
@@ -4183,7 +4182,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ACTIVAR",
+    "es": "DETENIDO",
     "tr": "ANTICIPO",
     "ab": "GGR"
   },
@@ -4194,7 +4193,7 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "ACTIVAR",
+    "es": "NOVIEMBRE",
     "tr": "VALOR",
     "ab": "GGR"
   },
@@ -4397,26 +4396,26 @@
     "tr": ""
   },
   {
-    "xp": "7225.26",
-    "cl": "MONICA GONZALEZ CASTRO",
-    "op": "PODER",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
-    "xp": "7226.26",
-    "cl": "MONICA GONZALEZ CASTRO",
-    "op": "PODER",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7227.26",
@@ -4425,19 +4424,393 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ACTIVAR",
+    "es": "NOVIEMBRE",
     "tr": "DOCUMENTOS",
     "ab": "GGR"
   },
   {
     "xp": "7228.26",
-    "cl": "",
+    "cl": "JOSE ANTONIO TRUJANO RAMIREZ",
     "op": "COMPRAVENTA",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "ACTIVAR",
+    "es": "NOVIEMBRE",
+    "tr": "VALOR",
+    "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7231.26",
+    "cl": "LABORATORIOS GOCA",
+    "op": "PODER",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "NOVIEMBRE",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7229.26",
+    "cl": "MONICA GONZALEZ CASTRO",
+    "op": "RECTIFICACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "NOVIEMBRE",
+    "tr": "PROYECTO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7238.26",
+    "cl": "MARGARITA VELAZQUEZ MARTINEZ",
+    "op": "CV CREDITO",
+    "td": "SI",
+    "ac": "QRO",
+    "mu": "SANTANDER",
+    "es": "NOVIEMBRE",
+    "tr": "VOBO-PREDIAL-CLG 169730",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7232.26",
+    "cl": "TASADORES 1",
+    "op": "PROTOCOLIZACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "NOVIEMBRE",
+    "tr": "ACTA FIRMADA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7233.26",
+    "cl": "TASADORES 2",
+    "op": "PROTOCOLIZACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "NOVIEMBRE",
+    "tr": "ACTA FIRMADA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7234.26",
+    "cl": "TASADORES AC",
+    "op": "PROTOCOLIZACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "NOVIEMBRE",
+    "tr": "ACTA FIRMADA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7235.26",
+    "cl": "JOSE ERNESTO LOPEZ PORTILLO ALCANTARA",
+    "op": "DACION EN PAGO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "",
+    "es": "NOVIEMBRE",
     "tr": "DOCUMENTOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7236.26",
+    "cl": "JOSE ERNESTO LOPEZ PORTILLO ALCANTARA",
+    "op": "DACION EN PAGO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "",
+    "es": "NOVIEMBRE",
+    "tr": "DOCUMENTOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7237.26",
+    "cl": "JOSE ERNESTO LOPEZ PORTILLO ALCANTARA",
+    "op": "DACION EN PAGO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "",
+    "es": "NOVIEMBRE",
+    "tr": "DOCUMENTOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7239.26",
+    "cl": "MA. DEL CARMEN NEIRA Y FIGAROLA ",
+    "op": "TESTIMONIAL ",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "DETENIDO ",
+    "tr": "PROYECTO ",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7240.26",
+    "cl": "MARTIN PEDRO SALAZAR MACIAS",
+    "op": "CANCEL CV CREDITO",
+    "td": "SI",
+    "ac": "QRO",
+    "mu": "SCOTIABANK",
+    "es": "NOVIEMBRE",
+    "tr": "VALORES-CLG 170523",
     "ab": "GGR"
   },
   {
