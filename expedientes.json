@@ -35,12 +35,12 @@
     "tr": ""
   },
   {
-    "ab": "LSR",
-    "xp": "5014.26",
-    "cl": "MA DEL RUBI ZAMORA SANCHEZ",
-    "op": "CANCELACION DE HIPOTECA",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
-    "ac": "CORREGIDORA",
+    "ac": "",
     "mu": "",
     "es": "",
     "tr": ""
@@ -3428,15 +3428,15 @@
     "ab": "GGR"
   },
   {
-    "xp": "7201.26",
-    "cl": "ANDREA ILSE PICHARDO SOTO",
-    "op": "COMPRAVENTA",
-    "td": "SI",
-    "ac": "QRO",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
     "mu": "",
-    "es": "NOVIEMBRE",
-    "tr": "AGUA-LUZ",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "ab": "",
@@ -4088,15 +4088,15 @@
     "tr": ""
   },
   {
-    "xp": "7206.26",
-    "cl": "CECILIA BRIBIESCA RANGEL",
-    "op": "PODER",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "ab": "",
@@ -4143,15 +4143,15 @@
     "tr": ""
   },
   {
-    "xp": "7210.26",
-    "cl": "PAMELA YARENY ROJAS GONZALEZ",
-    "op": "CV CREDITO",
-    "td": "SI",
-    "ac": "COR",
-    "mu": "CP FLORENCIO",
-    "es": "NOVIEMBRE",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7212.26",
@@ -4627,15 +4627,15 @@
     "tr": ""
   },
   {
-    "xp": "7231.26",
-    "cl": "LABORATORIOS GOCA",
-    "op": "PODER",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "NOVIEMBRE",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "ab": "",
@@ -5375,37 +5375,15 @@
     "tr": ""
   },
   {
-    "xp": "7186.26",
-    "cl": "GRUPO ROMALU",
-    "op": "PROTOCOLIZACION",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
-    "ab": "GGR"
-  },
-  {
-    "xp": "7187.26",
-    "cl": "CONTROLADORA PATRIMONIAL",
-    "op": "PROTOCOLIZACION",
-    "td": "",
-    "ac": "",
-    "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
-    "ab": "GGR"
-  },
-  {
-    "xp": "7059.24",
-    "cl": "RITA ZOILA PEREZ ZARATE",
-    "op": "APLICACION",
-    "td": "SI",
-    "ac": "QRO",
-    "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "AGENDADO",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "ab": "",
@@ -5419,26 +5397,15 @@
     "tr": ""
   },
   {
-    "xp": "7169.26",
-    "cl": "SABINO ARCE AGUIRRE",
-    "op": "CANCEL CV",
-    "td": "SI",
-    "ac": "MAR",
-    "mu": "SCOTIABANK",
-    "es": "LISTO",
-    "tr": "EN VOBO",
-    "ab": "GGR"
-  },
-  {
-    "xp": "7189.26",
-    "cl": "MARIA DEL CARMEN SONIA SAN CIP",
-    "op": "TESTAMENTO",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "ab": "",
@@ -5452,15 +5419,48 @@
     "tr": ""
   },
   {
-    "xp": "7217.26",
+    "ab": "",
+    "xp": "",
     "cl": "",
     "op": "",
     "td": "",
     "ac": "",
     "mu": "",
     "es": "",
-    "tr": "",
-    "ab": "GGR"
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7242.26",
@@ -5540,81 +5540,81 @@
     "ab": "GGR"
   },
   {
-    "xp": "7202.26",
-    "cl": "CRUZ HUERTA HERNANDEZ",
-    "op": "CANCELACION",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
-    "xp": "7205.26",
-    "cl": "MARIA DEL CARMEN SONIA SAN CIPRIAN",
-    "op": "TESTIMONIAL",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
-    "xp": "7249.26",
-    "cl": "SAMUEL PALACIOS VEGA",
-    "op": "APLICACION",
-    "td": "SI",
-    "ac": "QRO",
-    "mu": "",
-    "es": "LISTO",
-    "tr": "",
-    "ab": "GGR"
-  },
-  {
-    "xp": "7207.26",
-    "cl": "TASADORES",
-    "op": "PODER",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "LISTO PARA FIRMA",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
-    "xp": "7029.26",
-    "cl": "JOSE CARLOS CRUCET",
-    "op": "APLICACION",
-    "td": "SI",
-    "ac": "COR",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
     "mu": "",
-    "es": "LISTO PARA FIRMA",
-    "tr": "CLG 157112",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
-    "xp": "7209.26",
-    "cl": "WENDY GARCIA ELIZARRARAS",
-    "op": "CV CREDITO",
-    "td": "SI",
-    "ac": "COR",
-    "mu": "CP FLORENCIO",
-    "es": "LISTO",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
-    "xp": "7137.26",
-    "cl": "ARMINDA MOCTEZUMA DOMINGUEZ",
-    "op": "CV CREDITO CREDITO",
-    "td": "SI",
-    "ac": "COR",
-    "mu": "COFI-SANT",
-    "es": "LISTO",
-    "tr": "PAGOS",
-    "ab": "GGR"
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7254.26",
@@ -5628,37 +5628,37 @@
     "ab": "GGR"
   },
   {
-    "xp": "7225.26",
-    "cl": "MONICA GONZALEZ CASTRO",
-    "op": "PODER",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
-    "xp": "7226.26",
-    "cl": "MONICA GONZALEZ CASTRO",
-    "op": "PODER",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
-    "xp": "7244.26",
-    "cl": "MISS ROCIO EFECTIVO",
-    "op": "RATIFICACION",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7256.26",
@@ -5672,26 +5672,26 @@
     "ab": "GGR"
   },
   {
-    "xp": "7245.26",
-    "cl": "EMPRESAS CONTEMPORANEAS SC",
-    "op": "RATIFICACION",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO",
-    "tr": "LISTO ",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
-    "xp": "7246.26",
-    "cl": "INMOBILIARIA VIPEGO SA DE CV",
-    "op": "RATIFICACION",
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "LISTO",
-    "tr": "LISTO",
-    "ab": "GGR"
+    "es": "",
+    "tr": ""
   },
   {
     "xp": "7247.26",
@@ -5714,6 +5714,325 @@
     "es": "LISTO",
     "tr": "INFONAVIT-PEDIR CLG*",
     "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
   },
   {
     "ab": "",
