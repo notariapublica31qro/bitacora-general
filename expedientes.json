@@ -261,8 +261,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "CANCELADO",
-    "tr": "DOCUMENTOS ACREEDOR",
+    "es": "LISTO",
+    "tr": "LISTO",
     "ab": "GGR"
   },
   {
@@ -279,12 +279,12 @@
   {
     "xp": "7064.26",
     "cl": "GEORGINA RESENDIZ LEON",
-    "op": "APLICACION DE BIENES",
+    "op": "APLICACION",
     "td": "SI",
     "ac": "QRO",
     "mu": "",
-    "es": "DETENIDO",
-    "tr": "INE HIJA-PREDIAL-ESCRITURA-CUPX2-CLG-ANTICIPO",
+    "es": "LISTO",
+    "tr": "CUP 177705/177720-CLG 178233",
     "ab": "GGR"
   },
   {
@@ -3033,13 +3033,13 @@
   },
   {
     "xp": "7125.26",
-    "cl": "CIXOC",
+    "cl": "MIGUEL ERNESTO LINARES ROSALES",
     "op": "TRANSMISION",
     "td": "SI",
     "ac": "COR",
     "mu": "",
-    "es": "NOVIEMBRE",
-    "tr": "PROYECTO",
+    "es": "LISTO",
+    "tr": "DOCUMENTOS",
     "ab": "GGR"
   },
   {
@@ -3078,12 +3078,12 @@
   {
     "xp": "7192.26",
     "cl": "AGUSTIN RAMIREZ MARTINEZ",
-    "op": "CV CREDITO",
+    "op": "CV CREDITO CREDITO",
     "td": "SI",
     "ac": "COR",
-    "mu": "SANTANDER",
-    "es": "DETENIDO",
-    "tr": "NOTAS-FACT 20 OCT-EXP INFO",
+    "mu": "COFI SANTANDER",
+    "es": "PROYECTO",
+    "tr": "NOTAS RENOVAR CLG*",
     "ab": "GGR"
   },
   {
@@ -3214,8 +3214,8 @@
     "td": "SI",
     "ac": "SJR",
     "mu": "",
-    "es": "NOVIEMBRE",
-    "tr": "23 OCT-NUMERO OFICIAL",
+    "es": "LISTO",
+    "tr": "RPP RECHAZO",
     "ab": "GGR"
   },
   {
@@ -3423,8 +3423,8 @@
     "td": "SI",
     "ac": "COR",
     "mu": "",
-    "es": "NOVIEMBRE",
-    "tr": "VOBO",
+    "es": "LISTO",
+    "tr": "EN VOBO",
     "ab": "GGR"
   },
   {
@@ -4182,8 +4182,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "DETENIDO",
-    "tr": "ANTICIPO",
+    "es": "LISTO",
+    "tr": "INF RPP-AGN-CNP 177718-CUP 177718-INE-NAC",
     "ab": "GGR"
   },
   {
@@ -4424,8 +4424,8 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "NOVIEMBRE",
-    "tr": "DOCUMENTOS",
+    "es": "LISTO",
+    "tr": "COPIAS 179301/179302-CG 179303",
     "ab": "GGR"
   },
   {
@@ -4710,7 +4710,7 @@
     "td": "",
     "ac": "",
     "mu": "",
-    "es": "NOVIEMBRE",
+    "es": "PROYECTO",
     "tr": "PROYECTO",
     "ab": "GGR"
   },
@@ -4721,8 +4721,8 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "SANTANDER",
-    "es": "NOVIEMBRE",
-    "tr": "VOBO-PREDIAL-CLG 169730",
+    "es": "LISTO",
+    "tr": "PREDIAL-PAGOS",
     "ab": "GGR"
   },
   {
@@ -4765,8 +4765,8 @@
     "td": "SI",
     "ac": "COR",
     "mu": "",
-    "es": "NOVIEMBRE",
-    "tr": "DOCUMENTOS",
+    "es": "LISTO",
+    "tr": "NAC-PREDIAL-VALOR-CLG 178197",
     "ab": "GGR"
   },
   {
@@ -4776,8 +4776,8 @@
     "td": "SI",
     "ac": "COR",
     "mu": "",
-    "es": "NOVIEMBRE",
-    "tr": "DOCUMENTOS",
+    "es": "LISTO",
+    "tr": "NAC-PREDIAL-VALOR-CLG 178205",
     "ab": "GGR"
   },
   {
@@ -4787,8 +4787,8 @@
     "td": "SI",
     "ac": "COR",
     "mu": "",
-    "es": "NOVIEMBRE",
-    "tr": "DOCUMENTOS",
+    "es": "LISTO",
+    "tr": "NAC-PREDIAL-VALOR-CLG 178212",
     "ab": "GGR"
   },
   {
@@ -4809,8 +4809,8 @@
     "td": "SI",
     "ac": "QRO",
     "mu": "SCOTIABANK",
-    "es": "NOVIEMBRE",
-    "tr": "VALORES-CLG 170523",
+    "es": "LISTO",
+    "tr": "VOBO CANCEL",
     "ab": "GGR"
   },
   {
@@ -5318,6 +5318,402 @@
     "mu": "",
     "es": "",
     "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7186.26",
+    "cl": "GRUPO ROMALU",
+    "op": "PROTOCOLIZACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7187.26",
+    "cl": "CONTROLADORA PATRIMONIAL",
+    "op": "PROTOCOLIZACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7059.24",
+    "cl": "RITA ZOILA PEREZ ZARATE",
+    "op": "APLICACION",
+    "td": "SI",
+    "ac": "QRO",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "AGENDADO",
+    "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7169.26",
+    "cl": "SABINO ARCE AGUIRRE",
+    "op": "CANCEL CV",
+    "td": "SI",
+    "ac": "MAR",
+    "mu": "SCOTIABANK",
+    "es": "LISTO",
+    "tr": "EN VOBO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7189.26",
+    "cl": "MARIA DEL CARMEN SONIA SAN CIP",
+    "op": "TESTAMENTO",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7217.26",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": "",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7242.26",
+    "cl": "CESAR DAVID GUTIERREZ ROBLES",
+    "op": "SOCIEDAD",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7250.26",
+    "cl": "MARIA FERNANDA SOTO SILVA",
+    "op": "CV CREDITO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "COFI SANTANDER",
+    "es": "PROYECTO",
+    "tr": "PREDIAL-EXP INFO-VOBO-CLG 180258",
+    "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7252.26",
+    "cl": "JOSE CARLOS CRUCET URUETA",
+    "op": "COMPRAVENTA",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "ab": "",
+    "xp": "",
+    "cl": "",
+    "op": "",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "",
+    "tr": ""
+  },
+  {
+    "xp": "7253.26",
+    "cl": "CRUZ HUERTA HERNANDEZ",
+    "op": "DONACION",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "DOCUMENTOS-VALOR",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7031.26",
+    "cl": "JOSE CARLOS CRUCET",
+    "op": "APLICACION",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7202.26",
+    "cl": "CRUZ HUERTA HERNANDEZ",
+    "op": "CANCELACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7205.26",
+    "cl": "MARIA DEL CARMEN SONIA SAN CIPRIAN",
+    "op": "TESTIMONIAL",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7249.26",
+    "cl": "SAMUEL PALACIOS VEGA",
+    "op": "APLICACION",
+    "td": "SI",
+    "ac": "QRO",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7207.26",
+    "cl": "TASADORES",
+    "op": "PODER",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "LISTO PARA FIRMA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7029.26",
+    "cl": "JOSE CARLOS CRUCET",
+    "op": "APLICACION",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "",
+    "es": "LISTO PARA FIRMA",
+    "tr": "CLG 157112",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7209.26",
+    "cl": "WENDY GARCIA ELIZARRARAS",
+    "op": "CV CREDITO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "CP FLORENCIO",
+    "es": "LISTO",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7137.26",
+    "cl": "ARMINDA MOCTEZUMA DOMINGUEZ",
+    "op": "CV CREDITO CREDITO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "COFI-SANT",
+    "es": "LISTO",
+    "tr": "PAGOS",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7254.26",
+    "cl": "MARTHA CELESTE MARTINEZ MALDONADO",
+    "op": "CV CREDITO CREDITO",
+    "td": "SI",
+    "ac": "SJR",
+    "mu": "COFI-CPM",
+    "es": "PROYECTO",
+    "tr": "CLG 31028",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7225.26",
+    "cl": "MONICA GONZALEZ CASTRO",
+    "op": "PODER",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7226.26",
+    "cl": "MONICA GONZALEZ CASTRO",
+    "op": "PODER",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7244.26",
+    "cl": "MISS ROCIO EFECTIVO",
+    "op": "RATIFICACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7256.26",
+    "cl": "MARIA EUGENIA AGUILAR DE LA PEÑA",
+    "op": "DONACION",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "VALOR-CLG-NAC HIJA",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7245.26",
+    "cl": "EMPRESAS CONTEMPORANEAS SC",
+    "op": "RATIFICACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO ",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7246.26",
+    "cl": "INMOBILIARIA VIPEGO SA DE CV",
+    "op": "RATIFICACION",
+    "td": "",
+    "ac": "",
+    "mu": "",
+    "es": "LISTO",
+    "tr": "LISTO",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7247.26",
+    "cl": "YOLANDA ZENDEJAS LASTIRI",
+    "op": "CV CREDITO",
+    "td": "SI",
+    "ac": "COR",
+    "mu": "SANTANDER",
+    "es": "LISTO",
+    "tr": "BH",
+    "ab": "GGR"
+  },
+  {
+    "xp": "7049.26",
+    "cl": "JOSE GUADALUPE RODRIGUEZ CUEVAS",
+    "op": "CV CREDITO",
+    "td": "SI",
+    "ac": "QRO",
+    "mu": "INFONAVIT",
+    "es": "LISTO",
+    "tr": "INFONAVIT-PEDIR CLG*",
+    "ab": "GGR"
   },
   {
     "ab": "",
